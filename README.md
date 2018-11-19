@@ -16,6 +16,7 @@
 - Styled the nav bar using  scss.
 - added code4ct logo.
 - added search button
+
 ## Technologies used:
 - HTML
 - CSS 
