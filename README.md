@@ -12,7 +12,8 @@
 - Added partials to the scss folder.
 - Started the navigation bar.
 - added necessary links and buttons
-- 
+- Created nav bar in the index page.
+- Styled the nav bar using  scss.
 
 ## Technologies used:
 - HTML
