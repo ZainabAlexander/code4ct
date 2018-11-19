@@ -9,27 +9,45 @@
     <script src="main.js"></script>
 </head>
 <body>
+    <!-- Navigation bar starts here -->
     <div class="navbar">
         <section>
-            <nav>
-                <ul>
-                    <li><a href="#">Start Coding</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Courses</a></li>
-                    <li><a href="#">Support</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="" target="blank" class="button-1">Donate</a></li>
-                </ul>
+            <nav class="nav" id="nav">
+              <img src="" alt="">            
+                <a href="#">Start Coding</a>
+                <a href="#home id=""active">Home</a>
+                <!-- Dropdown button for Courses link -->
+                <div class="dropdown">
+                    <button class="dropbtn">Courses<i class=""></i></button>
+                        <div class="drop_content">
+                                <a href="courses.html">Courses</a>
+                                <a href="#">Curriculum</a>
+                         </div>
+                </div>
+                <a href="#">Support</a>
+                <!-- Drop down button for about link -->
+                <div class="dropdown">
+                        <button class="dropbtn2">About<i class=""></i></button>
+                            <div class="drop_content">
+                                    <a href="courses.html">About Us</a>
+                                    <a href="#">Impact</a>
+                                    <a href="#">Why Code</a>
+                                    <a href="#">Team</a>
+                             </div>
+                </div>             
+                <a href="#">Blog</a>
+                <a href="contact.html">Contact</a>
+                
+                <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()"><i class="fas fa-bars"></i></a>
+                <a href="" target="blank" class="button-1">Donate</a>
             </nav>
         </section>
     </div>
+     <!-- Navigation bar ends here -->
     <div class="banner"></div>
     <div class="icons"></div>
     <div class="courses"></div>
     <div class="awards"></div>
-    <div class="div6"></div>
     <div class="latest_news"></div>
     <div class="sponsors"></div>
     <div class="support"></div>
