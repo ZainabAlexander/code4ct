@@ -14,6 +14,7 @@
 - added necessary links and buttons
 - Created nav bar in the index page.
 - Styled the nav bar using  scss.
+- added code4ct logo.
 
 ## Technologies used:
 - HTML
