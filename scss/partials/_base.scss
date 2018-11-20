@@ -6,4 +6,29 @@ $heading-color:white;
 body{
     padding:$padding;
 }
+
+.banner {
+    h1{
+        color:$heading-color;
+        width: 401px;
+        height: 50px;
+        text-align: center;
+        position:absolute;
+        top:250px;
+        left:750px;
+        transform: translate(-50%,50%);
+    }
+    p{
+        color:$heading-color;
+        width: 780px;
+        height: 50px;
+        text-align: center;
+        position:absolute;
+        top:350px;
+        left:750px;
+        transform: translate(-50%,50%);  
+    }
+}
+
+
 // Fonts Variable
