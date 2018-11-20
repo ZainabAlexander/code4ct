@@ -46,6 +46,15 @@ body {
   top: 250px;
   left: 750px;
   transform: translate(-50%, 50%); }
+.banner p {
+  color: white;
+  width: 780px;
+  height: 50px;
+  text-align: center;
+  position: absolute;
+  top: 350px;
+  left: 750px;
+  transform: translate(-50%, 50%); }
 
 .nav {
   height: 70px;

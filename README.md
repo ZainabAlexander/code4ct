@@ -30,4 +30,4 @@
 - Zainab Alexander
 
 ## Link to live website:
-- https://zainabalexander.github.io/code_4_ct/index.html
+- https://zainabalexander.github.io/code4ct/index.html
