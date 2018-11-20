@@ -19,7 +19,9 @@
 - Added a banner using css grids.
 
 ## 20 November 
-- 
+- Added a heading and paragrapgh tag
+- Styled the respected tags.
+
 ## Technologies used:
 - HTML
 - CSS 
