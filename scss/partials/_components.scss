@@ -40,3 +40,39 @@
     border:1px solid #e38f84;
     background-color: #e38f84;
 };
+
+// styling for Start Coding and Donate now Button
+
+.mainButtons {
+    width: 350px;
+    display: block;
+    margin: 0 auto; 
+}
+  
+  #codingButton {
+    font-size: 18px;
+    padding: 10px 16px;
+    background-color: #e38f84;
+    border: 0.5px solid #e38f84;
+    border-radius: 5px;
+    z-index: 10;
+    color: white; 
+    margin-top:350px;
+}
+  .donate_button{
+    background-color:black;
+    font-size: 18px;
+    padding: 10px 16px;
+    border: 0.5px solid #ffffff;
+    border-radius: 5px;
+    z-index: 10;
+    color: white; 
+    margin-top:350px;
+  }
+
+  .mainButtons button:hover {
+    background-color: #555555;
+    border-color: white;
+    padding-right: 17.6; 
+}
+  
