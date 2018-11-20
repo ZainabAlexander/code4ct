@@ -68,12 +68,24 @@
     transition: 1s ease-in-out;
 }
  // styling for the banner
+ 
 .banner{
     width:100%;
-    height:600px;
+    height:800px;
     background-color: black;
     margin-top: 20px;
-
+    background-image: url(../images/Code4CT-homepage.jpg);
+    background-size: cover;
+}
+.mainHeading{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    padding: 40px 0;
+    color: white;
+    height: 50%;
+    top: 20%;
 }
 .who_we_are{
     width: 100%;

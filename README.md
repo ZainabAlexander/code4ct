@@ -21,6 +21,10 @@
 ## 20 November 
 - Added a heading and paragrapgh tag
 - Styled the respected tags.
+- added two buttons
+- styled two buttons using scss
+- added background image
+- added background color with opacity for readability 
 
 ## Technologies used:
 - HTML

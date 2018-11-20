@@ -39,8 +39,18 @@
     margin-top:20px;
     border:1px solid #e38f84;
     background-color: #e38f84;
-};
+}
 
+// Styling for main heading
+.main_heading{
+    text-align:center;
+    font-size:2.0em;
+    margin:3px;
+}
+
+.paragraph{
+    display:block;
+}
 // styling for Start Coding and Donate now Button
 
 .mainButtons {
@@ -49,11 +59,11 @@
     margin: 0 auto; 
 }
   
-  #codingButton {
+  .codingButton {
     font-size: 18px;
     padding: 10px 16px;
-    background-color: #e38f84;
-    border: 0.5px solid #e38f84;
+    background-color: red;
+    border: 0.5px solid #ffffff;
     border-radius: 5px;
     z-index: 10;
     color: white; 
