@@ -4,6 +4,16 @@
 body {
   padding: 10px; }
 
+img {
+  width: 100%;
+  display: block;
+  margin: 5px auto;
+  border-radius: 5px; }
+
+img:hover {
+  filter: brightness(80%);
+  transform: scale(1.1); }
+
 .banner h1 {
   color: white;
   width: 500px;
@@ -183,12 +193,12 @@ body {
   background-image: url(../images/Code4CT-homepage.jpg);
   width: 100%;
   height: 800px;
-  background-color: black;
+  background-color: #4e4e4e;
   margin-top: 10px;
-  background-size: cover; }
+  background-size: cover;
+  background-blend-mode: multiply; }
 
 .mainHeading {
-  background-color: rgba(0, 0, 0, 0.5);
   display: block;
   margin: 0 auto;
   position: relative;
@@ -199,18 +209,6 @@ body {
   top: 20%; }
 
 .who_we_are {
-  width: 100%;
-  height: 300px;
-  background-color: white;
-  padding-left: 0px;
-  margin: 10px; }
-  .who_we_are .who_we_are p {
-    padding: 10px;
-    padding-left: 0;
-    padding-top: 0;
-    font-size: 16px;
-    text-align: left; }
-  .who_we_are h1 {
-    margin-bottom: 10px; }
+  background-color: blue; }
 
 /*# sourceMappingURL=main.css.map */

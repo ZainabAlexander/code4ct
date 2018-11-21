@@ -2,12 +2,25 @@
  
 $padding:10px;
 $heading-color:white;
+
+
+
 *{
     font-family: 'Poppins', sans-serif;
 }
 body{
     padding:$padding;
 }
+
+img {
+    width: 100%;
+    display: block;
+    margin: 5px auto;
+    border-radius: 5px; }
+  
+  img:hover {
+    filter: brightness(80%);
+    transform: scale(1.1); }
 
 .banner {
     h1{
