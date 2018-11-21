@@ -71,7 +71,7 @@
  
 .banner{
     background-image: url(../images/Code4CT-homepage.jpg);
-    width:100%;
+    width:90%;
     height:800px;
     background-color: black;
     margin-top: 20px;
@@ -93,12 +93,20 @@
     width: 100%;
     height: 300px;
     background-color:white;
-    padding-left: 187px;
+    padding-left: 0px;
+    margin:10px;
 
-    h6{
-        color:black;
-        text-align: left;
-        font-size:24px;
+    .who_we_are p{
+    padding: 10px;
+    padding-left:0;
+    padding-top:0;
+    font-size:16px;
+    text-align:left;
+
+    }
+
+    h1{
+    margin-bottom:10px;
     }
 }
 // Grids
