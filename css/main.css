@@ -211,31 +211,36 @@ img:hover {
 .who_we_are {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto auto;
+  height: 590px;
   width: 100%;
-  background-color: aqua; }
+  background-color: aqua;
+  padding-top: 20px; }
 
 .who_we_are > div {
-  height: 150px;
   justify-content: center;
   align-items: center;
   padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  height: 360px; }
+  padding-top: 10px;
+  padding-bottom: 20px; }
 
 .images_gallery {
-  background-color: pink;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 5px; }
+  grid-template-columns: auto auto;
+  grid-gap: 5px;
+  margin-bottom: 115px; }
 
 .images_gallery > div {
   background-color: gray;
-  width: 330px;
-  height: 170px; }
+  width: 250px;
+  height: 230px;
+  border-radius: 5px; }
 
 .para {
-  background-color: purple; }
+  background-color: purple;
+  margin-left: 30px;
+  padding: 20px;
+  height: 500px;
+  margin-top: 11px; }
 
 /*# sourceMappingURL=main.css.map */
