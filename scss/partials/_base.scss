@@ -17,7 +17,7 @@ img {
     height:225px;
     display: block;
     margin: 5px auto;
-    border-radius: 5px; }
+}
   
   img:hover {
     filter: brightness(80%);
@@ -51,11 +51,14 @@ img {
         transform: translate(-50%,50%);  
     }
 }
-// .who_we_are{
 
-//     h1{
-//         margin-left:10px;
-//     }
-// }
+// Styling for who_we_are section
+ 
+.who_we_are p{
+  padding: 10px;
+  padding-left: 0;
+  padding-top: 0;
+  font-size: 16px
+}
 
 // Fonts Variable

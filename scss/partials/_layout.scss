@@ -2,6 +2,10 @@
 // Styling of the navigation bar
 .navbar{
     position:sticky;
+    top:0;
+    width:100%;
+    z-index:1;
+
 }
 
 .nav{
@@ -97,9 +101,8 @@
     display: grid;
     grid-gap: 20px;
     grid-template-columns: auto auto;
-    height: 590px;
+    height: 600px;
     width:100%;
-    background-color: aqua;
     padding-top:20px;
 }
 .who_we_are > div {
@@ -114,22 +117,48 @@
     display:grid;
     grid-template-columns: auto auto;
     grid-gap:5px; 
-    margin-bottom:115px;   
+    margin-bottom:115px; 
+    margin-right:133px;
+
+.images_gallery img:hover {
+    transform: scale(1.2); } 
 }
 
 .images_gallery > div {
-    background-color: gray;
+    display:grid;
     width: 250px;
     height: 230px;
-    border-radius: 5px;
 }
 
-.para{
-    background-color: purple;
-    margin-left:30px;
+.para {
     padding:20px;
     height:500px;
     margin-top:11px;
+    margin-left: 309px;
+    width: 439px;
 }
 
+.icons{
+    background-color:black;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto;
+    height: 400px;
+    width:100%;
+    padding-top:10px;
+}
+
+.icons > div{
+    background-color: gray;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    width: 280px;
+    height: 290px;
+    border-radius: 5px;
+    margin-left:309px;
+    margin-top:50px;
+    margin-right:309px;
+}
 // Grids

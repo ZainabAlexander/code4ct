@@ -8,8 +8,7 @@ img {
   width: 250px;
   height: 225px;
   display: block;
-  margin: 5px auto;
-  border-radius: 5px; }
+  margin: 5px auto; }
 
 img:hover {
   filter: brightness(80%);
@@ -38,6 +37,12 @@ img:hover {
   left: 492px;
   font-size: 100%;
   transform: translate(-50%, 50%); }
+
+.who_we_are p {
+  padding: 10px;
+  padding-left: 0;
+  padding-top: 0;
+  font-size: 16px; }
 
 .logo a {
   margin: 0;
@@ -130,8 +135,39 @@ img:hover {
   position: relative;
   bottom: 0; }
 
+.readMore {
+  padding: 8px 14px;
+  width: 130px;
+  font-size: 18px;
+  background-color: white;
+  color: grey;
+  border: 2px solid grey;
+  border-radius: 5px;
+  transition: all 300ms ease-in-out;
+  text-align: center; }
+
+.readMore:hover {
+  width: 160px; }
+
+.icons {
+  background-color: black;
+  color: white;
+  width: 100%; }
+
+.icons > i {
+  width: 150px; }
+
+.icons > h3 {
+  text-align: center; }
+
+.icons > p {
+  text-align: center; }
+
 .navbar {
-  position: sticky; }
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1; }
 
 .nav {
   height: 70px;
@@ -215,9 +251,8 @@ img:hover {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: auto auto;
-  height: 590px;
+  height: 600px;
   width: 100%;
-  background-color: aqua;
   padding-top: 20px; }
 
 .who_we_are > div {
@@ -231,19 +266,43 @@ img:hover {
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 5px;
-  margin-bottom: 115px; }
+  margin-bottom: 115px;
+  margin-right: 133px; }
+  .images_gallery .images_gallery img:hover {
+    transform: scale(1.2); }
 
 .images_gallery > div {
-  background-color: gray;
+  display: grid;
   width: 250px;
-  height: 230px;
-  border-radius: 5px; }
+  height: 230px; }
 
 .para {
-  background-color: purple;
-  margin-left: 30px;
   padding: 20px;
   height: 500px;
-  margin-top: 11px; }
+  margin-top: 11px;
+  margin-left: 309px;
+  width: 439px; }
+
+.icons {
+  background-color: black;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: auto auto auto;
+  height: 400px;
+  width: 100%;
+  padding-top: 10px; }
+
+.icons > div {
+  background-color: gray;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 280px;
+  height: 290px;
+  border-radius: 5px;
+  margin-left: 309px;
+  margin-top: 50px;
+  margin-right: 309px; }
 
 /*# sourceMappingURL=main.css.map */
