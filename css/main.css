@@ -163,6 +163,10 @@ img:hover {
 .icons > p {
   text-align: center; }
 
+i {
+  font-size: 24px;
+  color: #e38f84; }
+
 .navbar {
   position: sticky;
   top: 0;
@@ -287,10 +291,11 @@ img:hover {
   background-color: black;
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 25% 25% 25%;
   height: 400px;
   width: 100%;
-  padding-top: 10px; }
+  padding-top: 10px;
+  margin-top: 170px; }
 
 .icons > div {
   background-color: gray;
@@ -299,10 +304,10 @@ img:hover {
   align-items: center;
   text-align: center;
   width: 280px;
-  height: 290px;
+  height: 300px;
   border-radius: 5px;
   margin-left: 309px;
   margin-top: 50px;
-  margin-right: 309px; }
+  margin-right: 400px; }
 
 /*# sourceMappingURL=main.css.map */
