@@ -295,10 +295,9 @@ i {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 25% 25% 25%;
-  height: 400px;
+  height: 350px;
   width: 100%;
-  padding-top: 10px;
-  margin-top: 170px; }
+  padding-top: 10px; }
 
 .icons > div {
   display: grid;
@@ -309,7 +308,6 @@ i {
   height: 300px;
   border-radius: 5px;
   margin-left: 309px;
-  margin-top: 50px;
-  margin-right: 400px; }
+  margin-top: 50px; }
 
 /*# sourceMappingURL=main.css.map */
