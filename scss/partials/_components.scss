@@ -21,14 +21,14 @@
 .search_bar input{
     height:30px;
     width: 150px;
-    border: 1px solid #e38f84;
+    border: 1px solid $main-color;
     padding:4px;
     font-size: 15px;
 }
 #searchButton:hover{
     color:white;
     margin-top:20px;
-    border:1px solid #e38f84;
+    border:1px solid $main-color;
     background-color: #ccc;
 }
 
@@ -37,8 +37,8 @@
     width:30px;
     height:30px;
     margin-top:20px;
-    border:1px solid #e38f84;
-    background-color: #e38f84;
+    border:1px solid $main-color;
+    background-color: $main-color;
 }
 
 // Styling for main heading
@@ -62,7 +62,7 @@
   .codingButton {
     font-size: 18px;
     padding: 10px 16px;
-    background-color: #e38f84;
+    background-color: $main-color;
     border: 0.5px solid #ffffff;
     border-radius: 5px;
     z-index: 10;
@@ -118,7 +118,7 @@
 
  }
 
-.readMore:hover {
+.button:hover {
     width:160px; }
 
 .icons {
@@ -140,5 +140,5 @@
 
 i{
     font-size:24px;
-    color:#e38f84;  
+    color:$main-color;  
     }

@@ -95,9 +95,9 @@
     top: 20%;
 
 }
-//  Styling for who_we_are section starts here
+//  Styling for about section starts here
 
-.who_we_are{
+.about{
     display: grid;
     grid-gap: 20px;
     grid-template-columns: auto auto;
@@ -105,7 +105,7 @@
     width:100%;
     padding-top:20px;
 }
-.who_we_are > div {
+.about > div {
     justify-content: center;
     align-items: center;
     padding-right:20px;
@@ -150,7 +150,6 @@
 }
 
 .icons > div{
-    background-color: gray;
     display:grid;
     justify-content: center;
     align-items: center;

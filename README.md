@@ -19,7 +19,7 @@
 - Added a banner using css grids.
 
 ## 20 November 
-- Added a heading and paragrapgh tag
+- Added a heading and paragraph tag
 - Styled the respected tags.
 - added two buttons
 - styled two buttons using scss

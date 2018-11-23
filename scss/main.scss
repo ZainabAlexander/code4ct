@@ -1,5 +1,6 @@
-@import 'partials/variables';
-@import 'partials/base';
-@import 'partials/components';
-@import 'partials/layout';
-@import 'partials/responsiveness';
+// My global imports:
+@import 'partials/variables',
+        'partials/base',
+        'partials/components',
+        'partials/layout',
+        'partials/responsiveness';

@@ -38,11 +38,14 @@ img:hover {
   font-size: 100%;
   transform: translate(-50%, 50%); }
 
-.who_we_are p {
+.about p {
   padding: 10px;
   padding-left: 0;
   padding-top: 0;
   font-size: 16px; }
+
+.icon {
+  font-family: "Open Sans", sans-serif; }
 
 .logo a {
   margin: 0;
@@ -146,7 +149,7 @@ img:hover {
   transition: all 300ms ease-in-out;
   text-align: center; }
 
-.readMore:hover {
+.button:hover {
   width: 160px; }
 
 .icons {
@@ -251,7 +254,7 @@ i {
   height: 50%;
   top: 20%; }
 
-.who_we_are {
+.about {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: auto auto;
@@ -259,7 +262,7 @@ i {
   width: 100%;
   padding-top: 20px; }
 
-.who_we_are > div {
+.about > div {
   justify-content: center;
   align-items: center;
   padding-right: 20px;
@@ -298,7 +301,6 @@ i {
   margin-top: 170px; }
 
 .icons > div {
-  background-color: gray;
   display: grid;
   justify-content: center;
   align-items: center;
