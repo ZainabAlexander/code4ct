@@ -219,4 +219,23 @@
     height:400px;
     margin-top:120px;
 }
+.image-1 {
+    background: #da6f2b;
+    grid-area: article;
+}
+.image-2{
+    background-color:rgb(84, 174, 177);
+    grid-area:sidebar;
+}
+
+.image-3{
+    background: #3d8bb1;
+    grid-area: article1;
+}
+
+.image-4{
+    background: #e03f3f;
+    grid-area: sidebar1;
+}
+
 // Grids
