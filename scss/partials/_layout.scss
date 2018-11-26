@@ -177,4 +177,46 @@
         "main     main     sidebar"
         "footer   footer   footer";
 }
+.courses div {
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+/* specific item styles */
+
+.coursesInfo {
+    background: #b03532;
+    grid-area: header;
+    height:172px;
+}
+
+.courses_gallery{
+    background: #33a8a5;
+    grid-area: main;
+    height:400px;
+    width:400px;
+    display: grid;
+    margin-top:120px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 20px;
+
+    grid-template-areas:
+        "article sidebar"
+        "article1 sidebar1";
+
+}
+.courses_gallery > div {
+    height:150px;
+    width:150px;
+
+}
+
+.largerImage {
+    background: #30997a;
+    grid-area: sidebar;
+    height:400px;
+    margin-top:120px;
+}
 // Grids
