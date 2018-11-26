@@ -199,7 +199,7 @@
     margin-top:170px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
-    grid-gap: 10px;
+    grid-gap:5px;
 
     grid-template-areas:
         "article sidebar"
@@ -207,16 +207,19 @@
 
 }
 .courses_gallery > div {
-    height:150px;
-    width:150px;
+    height:230px;
+    width:230px;
 
 }
 
 .largerImage {
-    background: #30997a;
     grid-area: sidebar;
     height:400px;
     margin-top:200px;
+    .largeImage >img{
+        height:300px;
+        width:auto;
+    }
 }
 .gallery_image-1 {
     grid-area: article;
@@ -226,6 +229,7 @@
 }
 
 .gallery_image-3{
+    margin-bottom:10px;
     grid-area: article1;
 }
 
