@@ -159,4 +159,22 @@
     margin-left:309px;
     margin-top:50px;
 }
+
+// styling for the layout of courses section
+
+.courses {
+    padding-top: 20px;
+    display: grid;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 80px auto 80px;
+    grid-gap: 20px;
+
+    grid-template-areas: "header   header   header"
+        "main     main     sidebar"
+        "footer   footer   footer";
+}
 // Grids
