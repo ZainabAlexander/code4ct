@@ -47,6 +47,9 @@ img:hover {
 .icon {
   font-family: "Open Sans", sans-serif; }
 
+h1 {
+  margin-bottom: 10px; }
+
 .logo a {
   margin: 0;
   padding: 0; }
@@ -310,62 +313,101 @@ i {
   margin-left: 309px;
   margin-top: 50px; }
 
-.courses {
-  padding-top: 20px;
+.portfolio {
+  padding: 120px; }
+  .portfolio p {
+    padding-right: 500px; }
+
+.fourImages {
   display: grid;
-  width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
-  grid-template-columns: 450px 80px 450px;
-  grid-template-rows: 80px auto 80px;
-  grid-gap: 20px;
-  grid-template-areas: "header   header   header" "main     main     sidebar" "footer   footer   footer"; }
-
-.courses div {
-  color: white;
-  font-size: 20px;
-  padding: 20px; }
-
-/* specific item styles */
-.coursesInfo {
-  background: #b03532;
-  grid-area: header;
-  height: 172px; }
-
-.courses_gallery {
-  grid-area: main;
-  height: 400px;
-  width: 450px;
-  display: grid;
-  margin-top: 170px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
-  grid-gap: 5px;
-  grid-template-areas: "article sidebar" "article1 sidebar1"; }
+  grid-gap: 10px; }
 
-.courses_gallery > div {
-  height: 230px;
-  width: 230px; }
+.fourImages {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-gap: 10px; }
 
-.largerImage {
-  grid-area: sidebar;
-  height: 400px;
-  margin-top: 200px; }
-  .largerImage .largeImage > img {
-    height: 300px;
-    width: auto; }
+/*About section*/
+.aboutPreview {
+  margin: 10px; }
 
-.gallery_image-1 {
-  grid-area: article; }
+.aboutPreview button {
+  padding: 8px 14px;
+  width: 130px;
+  font-size: 18px;
+  background-color: white;
+  color: grey;
+  border: 1px solid grey;
+  border-radius: 5px; }
 
-.gallery_image-2 {
-  grid-area: sidebar; }
+.aboutPreview button:hover {
+  width: 143px; }
 
-.gallery_image-3 {
-  margin-bottom: 10px;
-  grid-area: article1; }
+.aboutPreview p {
+  padding: 10px;
+  padding-left: 0;
+  padding-top: 0;
+  font-size: 16px; }
 
-.gallery_image-4 {
-  grid-area: sidebar1; }
+.aboutPreview .imageGrid img:hover {
+  transform: scale(1.2); }
+
+.largeImage {
+  background-size: cover; }
+
+@media screen and (min-width: 1900px) {
+  .icons div {
+    margin: 0; }
+
+  .aboutPreview {
+    margin: 150px 15%; }
+
+  .aboutPreview .imageGrid {
+    margin: 60px 0; }
+
+  .icons {
+    padding: 100px 15%;
+    width: 70%;
+    display: grid;
+    grid-template-columns: auto auto auto auto; }
+
+  .portfolio {
+    padding: 100px 15%;
+    width: 70%; }
+
+  .meetOurTeam {
+    padding: 100px 5%;
+    width: 70%; }
+
+  .meetOurTeam {
+    padding: 100px 15%;
+    width: 70%; }
+
+  .meetOurTeam .teamGrid {
+    margin: 30px 0; }
+
+  .stats {
+    padding: 50px 15%;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; }
+
+  .secondaryFooter {
+    padding: 50px 15%;
+    grid-gap: 20px; } }
+@media screen and (min-width: 800px) {
+  .fourImages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 10px; }
+
+  .portfolioImages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px; } }
 
 /*# sourceMappingURL=main.css.map */

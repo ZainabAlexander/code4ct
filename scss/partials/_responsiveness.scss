@@ -1,9 +1,61 @@
 // Responsive Design
 
-
+@media screen and (min-width: 1900px) {
+    .icons div {
+      margin: 0; }
+  
+    .aboutPreview {
+      margin: 150px 15%; }
+  
+    .aboutPreview .imageGrid {
+      margin: 60px 0; }
+  
+    .icons {
+      padding: 100px 15%;
+      width: 70%;
+      display: grid;
+      grid-template-columns: auto auto auto auto; }
+  
+    .portfolio {
+      padding: 100px 15%;
+      width: 70%; }
+  
+    .meetOurTeam {
+      padding: 100px 5%;
+      width: 70%; }
+  
+    .meetOurTeam {
+      padding: 100px 15%;
+      width: 70%; }
+  
+    .meetOurTeam .teamGrid {
+      margin: 30px 0; }
+  
+    .stats {
+      padding: 50px 15%;
+      width: 70%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr; }
+  
+    .secondaryFooter {
+      padding: 50px 15%;
+      grid-gap: 20px; } }
 // RESPONSIVENESS FOR MOBILE:
 
 // RESPONSIVENESS FOR TABLET:
-
+@media screen and (min-width:800px) {
+    .fourImages{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto; 
+        grid-gap:10px;
+    }
+    .portfolioImages{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:10px;
+    }
+    
+}
 
 // RESPONSIVENESS FOR LARGE DESKTOP:
