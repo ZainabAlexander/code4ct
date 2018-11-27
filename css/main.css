@@ -184,8 +184,8 @@ i {
   top: 0;
   z-index: 20;
   background-color: white;
-  margin-left: 200px;
-  margin-right: 250px; }
+  padding-left: 200px;
+  padding-right: 250px; }
 
 .nav a {
   margin: 10px 0 0 10px;
