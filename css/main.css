@@ -160,8 +160,8 @@ h1 {
   transition: all 300ms ease-in-out;
   text-align: center; }
 
-.button:hover {
-  width: 160px; }
+button:hover {
+  padding-right: 15px; }
 
 .icons {
   background-color: black;
