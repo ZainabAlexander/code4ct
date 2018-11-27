@@ -143,7 +143,7 @@
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 25% 25% 25% 25%;
-    height: 350px;
+    height: 200px;
     width:100%;
     padding-top:10px;
 }
@@ -153,10 +153,11 @@
     justify-content: center;
     align-items: center;
     text-align:center;
-    width: 280px;
-    height: 300px;
+    width: 250px;
+    height: 150px;
     border-radius: 5px;
-    margin-top:50px;
+    margin-top:10px;
+    padding-right:20px;
 }
 
 // styling for the layout of courses section
@@ -186,7 +187,7 @@
 .largeImage{
     width:300px;
     height:300px;
-    .largeImage > img {
+ .largeImage > img {
         width: 500px;
         height:500px;
     }
@@ -223,18 +224,51 @@
 
 // styling for meet out team section
 .meet_the_team{
-padding:20px;
+    padding-right:100px;
+    padding-left: 120px;
+    padding-top:30px;
+h1{
+    margin-left:45px;
+}
+.lineOuter{
+    margin-left:45px;
+}
+}
+.team_grid {
+    display: grid;
+    /* Creating Columns */
+    grid-template-columns:25% 25% 25% 25%;
+        /* Create spaces between items or "blocks" */
+    grid-gap:15px;
+
+    background-color: white;
+    color :black;
 
 }
-.teamGrid {
+
+.team_grid > div {
+
+    text-align: center;
+    font-size: 14px;
+    text-align: left;
+    height: 250px;
+  }
+
+.team_grid_2 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto auto; 
+    /* Creating Columns */
+    grid-template-columns:25% 25% 25% 25%;
+        /* Create spaces between items or "blocks" */
+    grid-gap:15px;
+    background-color: white;
+    color :black;
+
 }
 
-  .teamGrid .person1, .teamGrid .person2, .teamGrid .person3, .teamGrid .person4 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
- }
+.team_grid_2 > div {
+      text-align: center;
+      font-size: 14px;
+      text-align: left;
+      height: 250px;
+  }
 // Grids
