@@ -284,7 +284,7 @@ h1 {
 .about > div {
   justify-content: center;
   align-items: center;
-  padding-right: 20px;
+  padding-right: 10px;
   padding-top: 10px;
   padding-bottom: 20px; }
 
@@ -306,7 +306,7 @@ h1 {
   padding: 20px;
   height: 500px;
   margin-top: 11px;
-  margin-left: 309px;
+  margin-left: 150px;
   width: 439px; }
 
 .icons {
