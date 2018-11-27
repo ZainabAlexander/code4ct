@@ -46,8 +46,8 @@
 @media screen and (min-width:800px) {
     .fourImages{
         display:grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto auto; 
+        grid-template-columns: 250px 250px;
+        grid-template-rows: 200px 200px ; 
         grid-gap:10px;
     }
     .portfolioImages{
@@ -55,7 +55,7 @@
         grid-template-columns: 1fr 1fr;
         grid-gap:10px;
     }
-    
+
 }
 
 // RESPONSIVENESS FOR LARGE DESKTOP:

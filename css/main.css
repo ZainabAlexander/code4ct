@@ -314,9 +314,12 @@ i {
   margin-top: 50px; }
 
 .portfolio {
-  padding: 120px; }
+  padding-right: 150px;
+  padding-left: 150px;
+  padding-top: 100px; }
   .portfolio p {
-    padding-right: 500px; }
+    padding-right: 500px;
+    font-size: 18px; }
 
 .fourImages {
   display: grid;
@@ -326,9 +329,16 @@ i {
 
 .fourImages {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 200px 200px;
   grid-template-rows: auto auto;
   grid-gap: 10px; }
+
+.largeImage {
+  width: 300px;
+  height: 300px; }
+  .largeImage .largeImage > img {
+    width: 500px;
+    height: 500px; }
 
 /*About section*/
 .aboutPreview {
@@ -401,8 +411,8 @@ i {
 @media screen and (min-width: 800px) {
   .fourImages {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 200px 200px;
     grid-gap: 10px; }
 
   .portfolioImages {
