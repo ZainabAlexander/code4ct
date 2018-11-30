@@ -428,14 +428,28 @@ button:hover {
   width: 90%;
   background-color: black;
   display: grid;
-  grid-template-columns: 1fr 1fr; }
-
-.counter .line {
-  margin: 0; }
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: black;
+  color: white; }
 
 .counter h1, .counter p {
-  text-align: left;
-  color: white; }
+  text-align: center; }
+
+.counter .line {
+  height: 7px;
+  width: 20%;
+  background-color: #e38f84;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px; }
+
+.counter h1 {
+  font-size: 35px;
+  margin-bottom: 10px;
+  margin-top: 10px; }
+
+.counter p {
+  margin-bottom: 40px; }
 
 @media screen and (min-width: 1200px) {
   .icons div {
