@@ -279,6 +279,9 @@ ul li {
 .footerColumn1 > a {
   margin-right: 5px; }
 
+.copyright {
+  float: right; }
+
 .navbar {
   position: sticky;
   top: 0;
@@ -554,6 +557,35 @@ ul li {
 .sub_footer {
   margin: 10px;
   text-align: left; }
+
+/* Primary Footer */
+.primaryFooter {
+  padding: 10px;
+  background-color: #e38f84; }
+
+.secondaryNav {
+  padding: 5% 0;
+  width: 100%;
+  background-color: #ccc;
+  border: 1px solid black; }
+
+.secondaryNav div div {
+  width: 200px;
+  display: block;
+  margin: 0 auto; }
+
+.secondaryNav div div h1 {
+  text-align: center;
+  margin: 20px; }
+
+.traverselinks {
+  text-align: center;
+  color: white; }
+
+.traverselinks a {
+  font-size: 15px;
+  text-decoration: none;
+  color: white; }
 
 @media screen and (min-width: 1200px) {
   .icons div {
