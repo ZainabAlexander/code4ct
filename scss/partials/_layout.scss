@@ -271,4 +271,18 @@ h1{
       text-align: left;
       height: 250px;
   }
-// Grids
+
+  .counter{
+    padding:50px 5%;
+    width: 90%;
+    background-color:black;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+.counter .line{
+    margin: 0;
+}
+.counter h1, .counter p{
+    text-align: left;
+    color:white;
+}

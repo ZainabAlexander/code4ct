@@ -423,6 +423,20 @@ button:hover {
   text-align: left;
   height: 250px; }
 
+.counter {
+  padding: 50px 5%;
+  width: 90%;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+.counter .line {
+  margin: 0; }
+
+.counter h1, .counter p {
+  text-align: left;
+  color: white; }
+
 @media screen and (min-width: 1200px) {
   .icons div {
     margin: 0; }
