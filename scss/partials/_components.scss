@@ -223,8 +223,8 @@ a{
 }
 .sub img{
     display: inline;
-    width: auto;
-    height: 180px;
+    width:auto;
+    height:180px;
     margin-right:50px;
 }
 
@@ -235,22 +235,22 @@ a{
     }
 }
 
+.sub_footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr  1fr 1fr;
+    padding:20px;
+    color:$text-color;
+}
 .sub_footer article{
     margin: 20px 0;
-}
-
-.sub_footer .footerColumn1 img{
-    width: 20px;
-    display: inline;
-    line-height: 20px;
-
-    padding: 2px;
-    margin: 0;
-    margin-right: 2px;
-    border: none;
 }
 
 ul li{
     font-size: 18px;
     margin-left: 20px;
 }
+
+.footerColumn1 > a{
+ margin-right:5px;
+}
+
