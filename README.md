@@ -8,23 +8,56 @@
   line.
 - Created a index.html file and created a boiler plate.
 
-## 19 November
-- Added partials to the scss folder.
-- Started the navigation bar.
-- added necessary links and buttons
-- Created nav bar in the index page.
-- Styled the nav bar using  scss.
-- added code4ct logo.
-- added search button
-- Added a banner using css grids.
+## Navigation bar:
+- Added a logo.
+- Added home,about,courses,portfolio and contact.
+- Added a search bar and an icon.
 
-## 20 November 
-- Added a heading and paragraph tag
-- Styled the respected tags.
-- added two buttons
-- styled two buttons using scss
-- added background image
-- added background color with opacity for readability 
+## Banner:
+- Banner has a background image with text on top.
+- There is a gradient over the background image      for text readibility.
+- Two buttons were added, namely the start coding    and donate now button, with their respected        colors.
+
+## Who we are:
+- Gives more info as to what is done with Code4CT.
+- CSS grids was used the create the image gallery.
+- Images have a hover effect.
+- Includes a read more button.
+
+## Icon Bar:
+- Information about coding,communication,            problem solving and career guidance.
+- Each section was created using CSS grids.
+- Each small section has its own icon in the color   that used through out the website.
+
+## Exciting Courses:
+- CSS grids was used to create this section.
+- Gives more information as to the accolades         code4ct has received
+- Includes an image gallery.
+- All images has a hover effect over it.
+
+## Meet the team:
+- Introduces the prominent members of the organization.
+- Includes their image, the job title and a small    description.
+- All images has a hover effect.
+- Includes their social media links.
+- However, links only goes to the homepage of the    respected social media platforms as we do not      have their social media links as of yet.
+
+## Counter
+- Display the amount the amount of;
+- Cups of coffee consumed,
+- Hours spent coding,
+- Projects completed and
+- Number of girls
+- javaScript will be used to make the counter        start from 0 and count up until the amount to      date.
+
+## Subscribe 
+- Includes a an email input.
+- Has a submit button.
+- includes a icon of a paper plane.
+
+## Carousel:
+- Carousel includes images of the sponsors.
+- The images are on a continuous rotation.
 
 ## Technologies used:
 - HTML

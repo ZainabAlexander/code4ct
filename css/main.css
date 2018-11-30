@@ -263,6 +263,22 @@ a {
   100% {
     position: relative;
     left: -4580px; } }
+.sub_footer article {
+  margin: 20px 0; }
+
+.sub_footer .footerColumn1 img {
+  width: 20px;
+  display: inline;
+  line-height: 20px;
+  padding: 2px;
+  margin: 0;
+  margin-right: 2px;
+  border: none; }
+
+ul li {
+  font-size: 18px;
+  margin-left: 20px; }
+
 .navbar {
   position: sticky;
   top: 0;
@@ -533,6 +549,11 @@ a {
   background-color: black;
   width: 100%;
   height: 200px; }
+
+/* Secondary footer */
+.sub_footer {
+  margin: 10px;
+  text-align: left; }
 
 @media screen and (min-width: 1200px) {
   .icons div {
