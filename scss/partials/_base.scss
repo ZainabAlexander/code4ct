@@ -1,10 +1,5 @@
 // Basestyles
  
-$padding:10px;
-$heading-color:white;
-
-
-
 *{
     font-family: 'Poppins', sans-serif;
 }
@@ -72,3 +67,9 @@ h1{
     margin-bottom: 10px;
 }
 
+i{
+  font-family: FontAwesome;
+  font-size: 15px;
+  color: $icon-color;
+  text-decoration: none;
+}
