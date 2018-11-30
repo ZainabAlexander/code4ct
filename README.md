@@ -1,7 +1,7 @@
 # code_4_ct
 - Creating a website with specific  instruction as given by Code4CT.
 
-## 16 November
+## Project environment set up:
 - Created a repo on github called code4ct_2
 - Made the website live.
 - Created a folder structure using our command
