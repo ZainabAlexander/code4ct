@@ -58,6 +58,12 @@
 ## Carousel:
 - Carousel includes images of the sponsors.
 - The images are on a continuous rotation.
+## Sub Footer:
+- includes sub sections namely; Contact us ,company, Help&Support and courses
+
+## Footer
+- Contains copyright clause
+- Links to social media of Code4CT.
 
 ## Technologies used:
 - HTML

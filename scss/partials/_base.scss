@@ -1,10 +1,8 @@
 // Basestyles
  
-*{
-    font-family: 'Poppins', sans-serif;
-}
 body{
-    padding:$padding;
+ font-family:$icon-font;
+ padding:$padding;
 }
 
 img {

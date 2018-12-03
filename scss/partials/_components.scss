@@ -247,9 +247,18 @@ a{
 
 ul li{
     font-size: 18px;
-    margin-left: 20px;
 }
 
-.footerColumn1 > a{
- margin-right:5px;
+.footerColumn1{
+    a{
+    margin-right:5px;
+    color:$text-color;
+    }
+    i{
+        margin-right:10px;
+    }
+}
+
+.subHeading{
+    margin-left:12px;
 }

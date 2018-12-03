@@ -1,7 +1,5 @@
-* {
-  font-family: 'Poppins', sans-serif; }
-
 body {
+  font-family: "Open Sans", sans-serif;
   padding: 10px; }
 
 img {
@@ -273,11 +271,16 @@ a {
   margin: 20px 0; }
 
 ul li {
-  font-size: 18px;
-  margin-left: 20px; }
+  font-size: 18px; }
 
-.footerColumn1 > a {
-  margin-right: 5px; }
+.footerColumn1 a {
+  margin-right: 5px;
+  color: #666666; }
+.footerColumn1 i {
+  margin-right: 10px; }
+
+.subHeading {
+  margin-left: 12px; }
 
 .navbar {
   position: sticky;
