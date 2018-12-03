@@ -15,8 +15,8 @@
 
 ## Banner:
 - Banner has a background image with text on top.
-- There is a gradient over the background image      for text readibility.
-- Two buttons were added, namely the start coding    and donate now button, with their respected        colors.
+- There is a gradient over the background image  for text readibility.
+- Two buttons were added, namely the start coding and donate now button, with their respected        colors.
 
 ## Who we are:
 - Gives more info as to what is done with Code4CT.

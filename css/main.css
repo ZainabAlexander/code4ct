@@ -279,9 +279,6 @@ ul li {
 .footerColumn1 > a {
   margin-right: 5px; }
 
-.copyright {
-  float: right; }
-
 .navbar {
   position: sticky;
   top: 0;
@@ -586,6 +583,16 @@ ul li {
   font-size: 15px;
   text-decoration: none;
   color: white; }
+
+.primaryFooter {
+  display: grid;
+  width: 100%;
+  height: 40px;
+  background-color: #e38f84;
+  grid-template-columns: 1fr 1fr; }
+  .primaryFooter i {
+    color: white;
+    padding: 5px; }
 
 @media screen and (min-width: 1200px) {
   .icons div {
