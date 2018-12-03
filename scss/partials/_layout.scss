@@ -161,26 +161,25 @@
 }
 
 // styling for the layout of courses section
+
 .portfolio{
     padding-right:150px;
     padding-left: 150px;
     padding-top:100px;
     p{
-        padding-right:500px;
+        padding-right:300px;
         font-size:18px;
     }
 }
 .gallery_container {
     display: grid;
     grid-gap: 10px;
-    background-color: #2196F3;
     padding:20px;
   }
+
   .gallery_container >div {
-    background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     font-size: 30px;
-    
   }
   .portfolio1 {
     grid-column: 1;
@@ -192,6 +191,11 @@
     grid-column: 3;
     grid-row: 1 / span 3;
     width:500px;
+
+    img{
+        width:450px;
+        height:450px;
+    }
   }
 
   .portfolio3{
@@ -204,11 +208,13 @@
     grid-row:3;
     height:200px;
     width:250px;
+    padding-bottom: 20px;
 }
   .portfolio5 {
     grid-row: 3;
     height:200px;
     width:250px;
+    padding-bottom:20px;
   }
 
 
