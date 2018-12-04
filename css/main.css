@@ -56,23 +56,23 @@ i {
 
 .logo a {
   margin: 0;
-  padding-right: 50px; }
+  padding-right: 2.083em; }
 
 .logo a img {
   width: auto;
   margin: 0.625em 200px 0 0.625em;
-  height: 50px;
+  height: 2.083em;
   float: left; }
 
 .search_bar {
-  /*height: 50px;*/
+  /*height: ;*/
   display: block;
   float: right;
   margin-right: 1.250em; }
 
 .search_bar input {
   height: 30px;
-  width: 150px;
+  width: 10.250em;
   border: 1px solid #e38f84;
   padding: 4px;
   font-size: 15px; }
@@ -106,7 +106,7 @@ i {
   display: block; }
 
 .mainButtons {
-  width: 350px;
+  width: 36.250em;
   display: block;
   margin: 0 auto; }
 
@@ -131,15 +131,15 @@ i {
 .mainButtons button:hover {
   background-color: #555555;
   border-color: white;
-  padding-right: 17.6px; }
+  padding-right: 1.063em; }
 
 .lineouter {
-  width: 25px;
+  width: 1.500em;
   height: 5px;
   background-color: #ccc;
   margin: 0.625em 0;
-  margin-bottom: 14px;
-  margin-top: 14px; }
+  margin-bottom: 0.875em;
+  margin-top: 0.875em; }
 
 .lineInner {
   width: 10%;
@@ -151,7 +151,7 @@ i {
   bottom: 0; }
 
 .readMore {
-  padding: 8px 14px;
+  padding: 8px 0.875em;
   width: 130px;
   font-size: 1.125em;
   background-color: white;
@@ -169,7 +169,7 @@ button:hover {
   width: 100%; }
 
 .icons > i {
-  width: 150px; }
+  width: 6.250em; }
 
 .icons > h3 {
   text-align: center; }
@@ -178,15 +178,19 @@ button:hover {
   text-align: center; }
 
 .fa-desktop {
-  font-size: 50px;
+  font-size: 4.083em;
   color: #e38f84; }
 
 .fa-print {
-  font-size: 50px;
+  font-size: 4.083em;
   color: #e38f84; }
 
 .fa-camera-retro {
-  font-size: 50px;
+  font-size: 4.083em;
+  color: #e38f84; }
+
+.fa-volume-up {
+  font-size: 4.083em;
   color: #e38f84; }
 
 a {
@@ -215,7 +219,7 @@ a {
   background-color: #f9f9f9; }
 
 .subscribe table tr td button {
-  width: 11.250em;
+  width: 9.250em;
   display: block;
   height: 35px;
   border: 1px solid #e38f84;
@@ -251,7 +255,7 @@ a {
   display: inline;
   width: auto;
   height: 180px;
-  margin-right: 50px; }
+  margin-right: 2.083em; }
 
 @keyframes carousel {
   100% {
