@@ -25,13 +25,13 @@
 - Includes a read more button.
 
 ## Icon Bar:
-- Information about coding,communication,            problem solving and career guidance.
+- Information about coding,communication,problem solving and career guidance.
 - Each section was created using CSS grids.
-- Each small section has its own icon in the color   that used through out the website.
+- Each small section has its own icon in the color that used through out the website.
 
 ## Exciting Courses:
 - CSS grids was used to create this section.
-- Gives more information as to the accolades         code4ct has received
+- Gives more information as to the accolades code4ct has received
 - Includes an image gallery.
 - All images has a hover effect over it.
 

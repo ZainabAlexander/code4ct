@@ -282,6 +282,33 @@ ul li {
 .subHeading {
   margin-left: 12px; }
 
+#back2Top {
+  width: 70px;
+  line-height: 70px;
+  overflow: hidden;
+  z-index: 999;
+  display: none;
+  cursor: pointer;
+  -moz-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  position: fixed;
+  bottom: 70px;
+  right: 50px;
+  background-color: #DDD;
+  color: #555;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+  border: 1px solid black; }
+
+#back2Top:hover {
+  background-color: #e38f84;
+  color: #000;
+  transition: 0.9s; }
+
 .navbar {
   position: sticky;
   top: 0;
