@@ -348,6 +348,19 @@ h1{
     background-color: $main-color;
 }
 
+.primaryFooter{
+    display:grid;
+    width: 100%;
+    height: 40px;
+    background-color: $main-color;
+    grid-template-columns: 1fr 1fr;
+
+    i{
+        color:white;
+        padding:5px;
+    }
+}
+/////////////////About Us //////////////////////////
 .secondaryNav{
     padding: 5% 0;
     width: 100%;
@@ -372,17 +385,4 @@ h1{
     font-size: 15px;
     text-decoration: none;
     color:white;
-}
-
-.primaryFooter{
-    display:grid;
-    width: 100%;
-    height: 40px;
-    background-color: $main-color;
-    grid-template-columns: 1fr 1fr;
-
-    i{
-        color:white;
-        padding:5px;
-    }
 }

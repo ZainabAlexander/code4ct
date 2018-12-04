@@ -21,7 +21,7 @@
   .search_bar input {
     height: 30px;
     width: 10.250em;
-    border: 1px solid #e38f84;
+    border: 1px solid $main-color;
     padding: 4px;
     font-size: 15px; }
   
@@ -30,14 +30,14 @@
     width: 30px;
     height: 30px;
     margin-top: 1.250em;
-    border: 1px solid #e38f84;
-    background-color: #e38f84;
+    border: 1px solid $main-color;
+    background-color: $main-color;
  }
   
   #searchButton:hover {
     color: white;
     margin-top: 1.250em;
-    border: 1px solid #e38f84;
+    border: 1px solid $main-color;
     background-color: #ccc; }
   
   .searchBar button, .searchBar input {
@@ -193,7 +193,7 @@ a{
     border:1px solid $main-color;
     outline: none;
     font-size: 15px;
-    background-color: #e38f84;
+    background-color: $main-color;
     margin-left:0.625em;
 }
 .subscribe table tr td button:hover{
@@ -288,7 +288,27 @@ ul li{
      border: 1px solid black;
 }
 #back2Top:hover {
-    background-color:  #e38f84;
+    background-color:  $main-color;
     color: #000;
     transition: 0.9s;
 }
+
+//////////////////////////////styling for about page////////////////////
+
+.welcomeButton{
+    padding: 10px 16px;
+    border: 1px solid $main-color;
+    background-color: $main-color;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .welcomeButton:hover{
+    padding: 10px 17.6px;
+  }
+  
+  .welcomeImage{
+      width:750px;
+      margin-bottom:100px;
+  }
