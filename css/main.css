@@ -60,7 +60,7 @@ i {
 
 .logo a img {
   width: auto;
-  margin: 10px 200px 0 10px;
+  margin: 0.625em 200px 0 0.625em;
   height: 50px;
   float: left; }
 
@@ -68,7 +68,7 @@ i {
   /*height: 50px;*/
   display: block;
   float: right;
-  margin-right: 20px; }
+  margin-right: 1.250em; }
 
 .search_bar input {
   height: 30px;
@@ -81,13 +81,13 @@ i {
   line-height: 30px;
   width: 30px;
   height: 30px;
-  margin-top: 20px;
+  margin-top: 1.250em;
   border: 1px solid #e38f84;
   background-color: #e38f84; }
 
 #searchButton:hover {
   color: white;
-  margin-top: 20px;
+  margin-top: 1.250em;
   border: 1px solid #e38f84;
   background-color: #ccc; }
 
@@ -112,8 +112,8 @@ i {
   margin: 0 auto; }
 
 .codingButton {
-  font-size: 18px;
-  padding: 10px 16px;
+  font-size: 1.125em;
+  padding: 0.625em 1.000em;
   background-color: #e38f84;
   border: 0.5px solid #ffffff;
   border-radius: 5px;
@@ -123,8 +123,8 @@ i {
 
 .donate_button {
   background-color: black;
-  font-size: 18px;
-  padding: 10px 16px;
+  font-size: 1.125em;
+  padding: 0.625em 1.000em;
   border: 0.5px solid #ffffff;
   border-radius: 5px;
   z-index: 10;
@@ -134,13 +134,13 @@ i {
 .mainButtons button:hover {
   background-color: #555555;
   border-color: white;
-  padding-right: 17.6; }
+  padding-right: 17.6px; }
 
 .lineouter {
   width: 25px;
   height: 5px;
   background-color: #ccc;
-  margin: 10px 0;
+  margin: 0.625em 0;
   margin-bottom: 14px;
   margin-top: 14px; }
 
@@ -156,7 +156,7 @@ i {
 .readMore {
   padding: 8px 14px;
   width: 130px;
-  font-size: 18px;
+  font-size: 1.125em;
   background-color: white;
   color: grey;
   border: 2px solid grey;
@@ -200,7 +200,7 @@ a {
 
 .subscribe h1 {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 1.250em;
   margin-bottom: 5px; }
 
 .subscribe table {
@@ -209,8 +209,8 @@ a {
 
 .subscribe p {
   text-align: center;
-  margin-bottom: 20px;
-  margin-top: 20px; }
+  margin-bottom: 1.250em;
+  margin-top: 1.250em; }
 
 .subscribe table tr td input {
   width: 100%;
@@ -219,14 +219,14 @@ a {
   background-color: #f9f9f9; }
 
 .subscribe table tr td button {
-  width: 120px;
+  width: 11.250em;
   display: block;
   height: 35px;
   border: 1px solid #e38f84;
   outline: none;
   font-size: 15px;
   background-color: #e38f84;
-  margin-left: 10px; }
+  margin-left: 0.625em; }
 
 .subscribe table tr td button:hover {
   padding-right: 11px; }
@@ -264,20 +264,20 @@ a {
 .sub_footer {
   display: grid;
   grid-template-columns: 1fr 1fr  1fr 1fr;
-  padding: 20px;
+  padding: 1.250em;
   color: #666666; }
 
 .sub_footer article {
-  margin: 20px 0; }
+  margin: 1.250em 0; }
 
 ul li {
-  font-size: 18px; }
+  font-size: 1.125em; }
 
 .footerColumn1 a {
   margin-right: 5px;
   color: #666666; }
 .footerColumn1 i {
-  margin-right: 10px; }
+  margin-right: 0.625em; }
 
 .subHeading {
   margin-left: 12px; }
