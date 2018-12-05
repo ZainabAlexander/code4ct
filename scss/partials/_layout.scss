@@ -348,9 +348,10 @@ h1{
     background-color: $main-color;
 }
 
+
 .primaryFooter{
     display:grid;
-    width: 100%;
+    width: 99%;
     height: 40px;
     background-color: $main-color;
     grid-template-columns: 1fr 1fr;

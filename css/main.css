@@ -644,7 +644,7 @@ ul li {
 
 .primaryFooter {
   display: grid;
-  width: 100%;
+  width: 99%;
   height: 40px;
   background-color: #e38f84;
   grid-template-columns: 1fr 1fr; }
