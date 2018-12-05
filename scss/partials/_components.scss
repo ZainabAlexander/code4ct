@@ -162,8 +162,6 @@ a{
     text-decoration: none;
 }
 
-
-
 // styling for subscribe section
 
 .subscribe h1{
@@ -261,8 +259,6 @@ ul li{
     }
 }
 
-
-
 .subHeading{
     margin-left:12px;
 }
@@ -339,5 +335,10 @@ ul li{
   }
 
   .contactInfo{
-    padding:20px;
+    padding:30px;
+  }
+
+  .contactHeading{
+      padding-left:20px;
+      margin-bottom: 20px;
   }

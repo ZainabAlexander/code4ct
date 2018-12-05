@@ -355,7 +355,11 @@ ul li {
   font-size: 18px; }
 
 .contactInfo {
-  padding: 20px; }
+  padding: 30px; }
+
+.contactHeading {
+  padding-left: 20px;
+  margin-bottom: 20px; }
 
 .navbar {
   position: sticky;
