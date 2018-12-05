@@ -261,6 +261,8 @@ ul li{
     }
 }
 
+
+
 .subHeading{
     margin-left:12px;
 }
@@ -329,3 +331,13 @@ ul li{
     padding: 10px 0;
   }
   
+  ////////////////////////////////contact page ///////////////////////////
+
+  .emailButton{
+      @include button;
+      
+  }
+
+  .contactInfo{
+    padding:20px;
+  }

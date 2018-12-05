@@ -54,6 +54,12 @@ i {
   color: #888888;
   text-decoration: none; }
 
+input {
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 150px;
+  height: 22.5px; }
+
 .logo a {
   margin: 0;
   padding-right: 2.083em; }
@@ -338,6 +344,18 @@ ul li {
 
 .whoWeAreText p {
   padding: 10px 0; }
+
+.emailButton {
+  padding: 10px 16px;
+  border: 1px solid #e38f84;
+  background-color: #e38f84;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 18px; }
+
+.contactInfo {
+  padding: 20px; }
 
 .navbar {
   position: sticky;
@@ -698,6 +716,14 @@ ul li {
 .whoWeAreSection {
   display: grid;
   grid-template-columns: 1fr 1fr; }
+
+.contactSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 300px;
+  padding: 100px;
+  margin-left: 50px;
+  color: #666666; }
 
 @media screen and (min-width: 1200px) {
   .icons div {
