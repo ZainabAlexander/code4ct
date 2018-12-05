@@ -393,7 +393,7 @@ h1{
     display: grid;
     grid-gap: 20px;
     grid-template-columns: auto auto;
-    height: 600px;
+    height: 500px;
     width:100%;
     padding-top:20px;
 }
@@ -411,3 +411,7 @@ h1{
 
 }
     
+  .whoWeAreSection{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+  }
