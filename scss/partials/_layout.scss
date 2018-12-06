@@ -9,29 +9,29 @@
 }
 
 .nav{
-    height: 70px;
+    height: 4.375em;
     top:0;
     z-index: 20;
     background-color:white;
-    padding-left:50px;
-    padding-right:50px;
+    padding-left:3.125em;
+    padding-right:3.125em;
 }
 
 .nav a{
-    margin: 10px 0 0 10px;
+    margin: 12.5em 0 0 12.5em;
     background-color: white;
     float:left;
     display: block;
     color:#666666;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 1.875em;
     text-decoration: none;
     font-size:17px;
 }
 // styling drop down button
 
 .dropdown{
-    margin: 10px 0 0 10px;
+    margin: 12.5em 0 0 12.5em;
     float:left;
 }
 .dropdown .dropbtn{
@@ -41,7 +41,7 @@
     margin:0;
     font-family: inherit;
     color:#666666;
-    padding: 14px 16px;
+    padding: 14px 1.875em;
     background-color: white;
     margin:0;
 }
@@ -51,7 +51,7 @@
     position: absolute;
     background-color: white;
     min-width: 160px;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 1.875em rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -59,7 +59,7 @@
     display:block;
     float: none;
     color:$main-color;
-    padding: 12px 16px;
+    padding: 12px 1.875em;
     text-decoration: none;
     text-align:left;
 }
@@ -80,7 +80,7 @@
     width:100%;
     height:800px;
     background-color: rgb(78, 78, 78);
-    margin-top: 10px;
+    margin-top: 12.5em;
     background-size: cover;
     background-blend-mode: multiply; 
 }
@@ -89,7 +89,7 @@
     margin: 0 auto;
     position: relative;
     width: 60%;
-    padding: 40px 50px;
+    padding: 40px 3.125em;
     color: white;
     height: 50%;
     top: 20%;
@@ -99,24 +99,24 @@
 
 .about{
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 1.25em;
     grid-template-columns: auto auto;
     height: 600px;
     width:100%;
-    padding-top:20px;
+    padding-top:1.25em;
 }
 .about > div {
     justify-content: center;
     align-items: center;
-    padding-right:10px;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-right:12.5em;
+    padding-top: 12.5em;
+    padding-bottom: 1.25em;
 }
 
 .images_gallery{
     display:grid;
     grid-template-columns: auto auto;
-    grid-gap:5px; 
+    grid-gap:0.3125em; 
     margin-bottom:115px; 
     margin-right:133px;
 
@@ -131,7 +131,7 @@
 }
 
 .para {
-    padding:20px;
+    padding:1.25em;
     height:500px;
     margin-top:11px;
     margin-left:150px;
@@ -141,11 +141,11 @@
 .icons{
     background-color:black;
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 25% 25% 25% 25%;
-    height: 200px;
-    width:100%;
-    padding-top:10px;
+    grid-gap: 1.25em;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 12.5em;
+    width:99%;
+    // padding-top:12.5em;
 }
 
 .icons > div{
@@ -155,9 +155,8 @@
     text-align:center;
     width: 250px;
     height: 150px;
-    border-radius: 5px;
-    margin-top:10px;
-    padding-right:20px;
+    border-radius: 0.3125em;
+    margin-top:0.3125em;
 }
 
 // styling for the layout of courses section
@@ -165,26 +164,26 @@
 .portfolio{
     padding-right:150px;
     padding-left: 150px;
-    padding-top:100px;
+    padding-top:1.875em;
     p{
         padding-right:300px;
-        font-size:18px;
+        font-size:1.125em;
     }
 }
 .gallery_container {
     display: grid;
-    grid-gap: 10px;
-    padding:20px;
+    grid-gap: 12.5em;
+    padding:1.25em;
   }
 
   .gallery_container >div {
     text-align: center;
-    font-size: 30px;
+    font-size: 1.875em;
   }
   .portfolio1 {
     grid-column: 1;
     grid-row: 1;
-    height:200px;
+    height:12.5em;
     width:250px;
   }
   .portfolio2 {
@@ -200,45 +199,45 @@
 
   .portfolio3{
       color:green;
-      height:200px;
+      height:12.5em;
       width:250px;
   }
 .portfolio4{
     grid-column:1;
     grid-row:3;
-    height:200px;
+    height:12.5em;
     width:250px;
-    padding-bottom: 20px;
+    padding-bottom: 1.25em;
 }
   .portfolio5 {
     grid-row: 3;
-    height:200px;
+    height:12.5em;
     width:250px;
-    padding-bottom:20px;
+    padding-bottom:1.25em;
   }
 
 
 /*About section*/
 .aboutPreview {
-    margin: 10px; }
+    margin: 12.5em; }
   
   .aboutPreview button {
     padding: 8px 14px;
     width: 130px;
-    font-size: 18px;
+    font-size: 1.125em;
     background-color: white;
     color: grey;
     border: 1px solid grey;
-    border-radius: 5px; }
+    border-radius: 0.3125em; }
   
   .aboutPreview button:hover {
     width: 143px; }
   
   .aboutPreview p {
-    padding: 10px;
+    padding: 12.5em;
     padding-left: 0;
     padding-top: 0;
-    font-size: 16px; }
+    font-size: 1.875em; }
   
   .aboutPreview .imageGrid img:hover {
     transform: scale(1.2); }
@@ -249,9 +248,9 @@
 
 // styling for meet out team section
 .meet_the_team{
-    padding-right:100px;
+    padding-right:1.875em;
     padding-left: 120px;
-    padding-top:30px;
+    padding-top:1.875em;
 h1{
     margin-left:45px;
 }
@@ -264,7 +263,7 @@ h1{
     /* Creating Columns */
     grid-template-columns:25% 25% 25% 25%;
         /* Create spaces between items or "blocks" */
-    grid-gap:15px;
+    grid-gap:0.9375em;
     background-color: white;
     color :black;
 }
@@ -281,7 +280,7 @@ h1{
     /* Creating Columns */
     grid-template-columns:25% 25% 25% 25%;
         /* Create spaces between items or "blocks" */
-    grid-gap:15px;
+    grid-gap:0.9375em;
     background-color: white;
     color :black;
 
@@ -296,7 +295,7 @@ h1{
 
 //   styling for counter
 .counter{
-    padding:50px 5%;
+    padding:3.125em 5%;
     width: 90%;
     background-color:black;
     display: grid;
@@ -314,10 +313,10 @@ h1{
     background-color:$main-color;
     display: block;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
 }
 .counter h1{
-    font-size: 35px; margin-bottom: 10px; margin-top: 10px;
+    font-size: 35px; margin-bottom: 12.5em; margin-top: 12.5em;
 }
 .counter p{
     margin-bottom: 40px;
@@ -333,18 +332,18 @@ h1{
 .carousel{
     background-color: black;
     width: 100%;
-    height: 200px;
+    height: 12.5em;
 }
 
 /* Secondary footer */
 .sub_footer{
-    margin: 10px;
+    margin: 12.5em;
     text-align: left;
 }
 
 /* Primary Footer */
 .primaryFooter{
-    padding: 10px;
+    padding: 12.5em;
     background-color: $main-color;
 }
 
@@ -358,7 +357,7 @@ h1{
 
     i{
         color:white;
-        padding:5px;
+        padding:0.3125em;
     }
 }
 /////////////////About Us //////////////////////////
@@ -370,20 +369,20 @@ h1{
 }
 
 .secondaryNav div div {
-    width: 200px;
+    width: 12.5em;
     display: block;
     margin: 0 auto;
 }
 .secondaryNav div div h1{
     text-align: center;
-    margin: 20px;
+    margin: 1.25em;
 }
 .traverselinks{
     text-align: center;
     color:white;
 }
 .traverselinks a{
-    font-size: 15px;
+    font-size: 0.9375em;
     text-decoration: none;
     color:white;
 }
@@ -392,18 +391,18 @@ h1{
 
 .info{
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 1.25em;
     grid-template-columns: auto auto;
     height: 500px;
     width:100%;
-    padding-top:20px;
+    padding-top:1.25em;
 }
 .about > div {
     justify-content: center;
     align-items: center;
-    padding-right:10px;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-right:12.5em;
+    padding-top: 12.5em;
+    padding-bottom: 1.25em;
 }
 
 .welcomeImage{
@@ -423,7 +422,7 @@ h1{
       display:grid;
       grid-template-columns: 1fr 1fr;
       height:300px;
-      padding:100px;
-      margin-left:50px;
+      padding:1.875em;
+      margin-left:3.125em;
       color:$text-color;
   }
