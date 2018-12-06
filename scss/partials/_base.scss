@@ -1,85 +1,79 @@
 // Basestyles
-
-//  Styles for the body
-body{
- font-family:$icon-font;
- padding:$padding;
-}
-
-// Styles for images
-img {
-    width: 250px;
-    height:225px;
-    display: block;
-    margin: 0.3125 auto;
-}
-
-//Hover effect for all images
-img:hover {
-    filter: brightness(80%);
-    transform: scale(1.1); 
-}
-
-// Styles for text in the banner class
-.banner {
-    h1{
-        color:$heading-color;
-        width: 500px;
-        height: 3.125em;
-        text-align: center;
-        position:absolute;
-        line-height: 1.2em;
-        top: 38px;
-        left: 522px;  
-        font-weight:600;
-        font-size:33px;
-        transform: translate(-50%,50%);
-        
-    }
-    p{
-        color:$heading-color;
-        width: 870px;
-        height: 3.125em;
-        line-height:1.7em;
-        text-align: center;
-        position:absolute;
-        top: 148px;
-        left: 492px;
-        font-size:100%;
-        transform: translate(-50%,50%);  
-    }
-}
-
-// Styling for who_we_are section
  
-.about p{
-  padding: 10px;
-  padding-left: 0;
-  padding-top: 0;
-  font-size: 1.875em
-}
-// Styles for icons
-.icon{
-    font-family: $icon-font;
-}
-
-// Styles for h1 tag
-h1{
-    margin-bottom: 10px;
-}
-
-//  Styles for i tag
-i{
-  font-family: FontAwesome;
-  font-size: 0.9375em;
-  color: $icon-color;
-  text-decoration: none;
-}
-
-// Styles for input tag
-input{
-    padding:0.3125em;
-    margin-bottom:10px;
-    width:150px;
-    height:22.5px;
-}
+body{
+    font-family:$icon-font;
+    // padding:$padding;
+   }
+   
+   img {
+       width: 250px;
+       height:225px;
+       display: block;
+       margin: 5px auto;
+   }
+     
+     img:hover {
+       filter: brightness(80%);
+       transform: scale(1.1); }
+   
+   .banner {
+       h1{
+           color:$heading-color;
+           width: 500px;
+           height: 50px;
+           text-align: center;
+           position:absolute;
+           line-height: 1.2em;
+           top: 38px;
+           left: 522px;  
+           font-weight:600;
+           font-size:33px;
+           transform: translate(-50%,50%);
+           
+       }
+       p{
+           color:$heading-color;
+           width: 870px;
+           height: 50px;
+           line-height:1.7em;
+           text-align: center;
+           position:absolute;
+           top: 148px;
+           left: 492px;
+           font-size:100%;
+           transform: translate(-50%,50%);  
+       }
+   }
+   
+   // Styling for who_we_are section
+    
+   .about p{
+     padding: 10px;
+     padding-left: 0;
+     padding-top: 0;
+     font-size: 16px
+   }
+   
+   .icon{
+       font-family: $icon-font;
+   }
+   
+   // Fonts Variable
+   
+   
+   h1{
+       margin-bottom: 10px;
+   }
+   
+   i{
+     font-family: FontAwesome;
+     font-size: 15px;
+     color: $icon-color;
+     text-decoration: none;
+   }
+   input{
+       padding:5px;
+       margin-bottom:10px;
+       width:150px;
+       height:22.5px;
+   }

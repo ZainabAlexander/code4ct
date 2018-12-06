@@ -5,33 +5,33 @@
     top:0;
     width:100%;
     z-index:1;
+
 }
 
 .nav{
-    height: 4.375em;
+    height: 70px;
     top:0;
     z-index: 20;
-    background-color:$heading-color;
-    padding-left:3.125em;
-    padding-right:3.125em;
+    background-color:white;
+    padding-left:50px;
+    padding-right:50px;
 }
 
-//  Styling for a tag in the navigation bar
 .nav a{
-    margin: 12.5em 0 0 12.5em;
-    background-color: $heading-color;
+    margin: 10px 0 0 10px;
+    background-color: white;
     float:left;
     display: block;
-    color:$text-color;
+    color:#666666;
     text-align: center;
-    padding: 0.875em 1.875em;
+    padding: 14px 16px;
     text-decoration: none;
     font-size:17px;
 }
 // styling drop down button
 
 .dropdown{
-    margin: 12.5em 0 0 12.5em;
+    margin: 10px 0 0 10px;
     float:left;
 }
 .dropdown .dropbtn{
@@ -40,18 +40,18 @@
     outline: none;
     margin:0;
     font-family: inherit;
-    color:$text-color;
-    padding: 0.875em 1.875em;
-    background-color: $heading-color;
+    color:#666666;
+    padding: 14px 16px;
+    background-color: white;
     margin:0;
 }
 
 .drop_content{
     display:none;
     position: absolute;
-    background-color: $heading-color;
+    background-color: white;
     min-width: 160px;
-    box-shadow: 0px 8px 1.875em rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -59,14 +59,13 @@
     display:block;
     float: none;
     color:$main-color;
-    padding: 12px 1.875em;
+    padding: 12px 16px;
     text-decoration: none;
     text-align:left;
 }
-
-.nav a:hover .dropdown:hover .dropbtn{
+.nav a:hover,dropdown:hover .dropbtn{
     background-color: #555;
-    color:$heading-color;
+    color:white;
     transition: 1s ease-in-out;
 }
 
@@ -74,14 +73,14 @@
     display: block;
     transition: 1s ease-in-out;
 }
-
- // Styling for the banner
+ // styling for the banner
+ 
 .banner{
     background-image: url(../images/Code4CT-homepage.jpg);
     width:100%;
     height:800px;
     background-color: rgb(78, 78, 78);
-    margin-top: 12.5em;
+    margin-top: 10px;
     background-size: cover;
     background-blend-mode: multiply; 
 }
@@ -90,34 +89,34 @@
     margin: 0 auto;
     position: relative;
     width: 60%;
-    padding: 40px 3.125em;
-    color: $heading-color;
+    padding: 40px 50px;
+    color: white;
     height: 50%;
     top: 20%;
 
 }
-//  Styling for "About" section starts here
+//  Styling for about section starts here
 
 .about{
     display: grid;
-    grid-gap: 1.25em;
+    grid-gap: 20px;
     grid-template-columns: auto auto;
     height: 600px;
     width:100%;
-    padding-top:1.25em;
+    padding-top:20px;
 }
 .about > div {
     justify-content: center;
     align-items: center;
-    padding-right:12.5em;
-    padding-top: 12.5em;
-    padding-bottom: 1.25em;
+    padding-right:10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .images_gallery{
     display:grid;
     grid-template-columns: auto auto;
-    grid-gap:0.3125em; 
+    grid-gap:5px; 
     margin-bottom:115px; 
     margin-right:133px;
 
@@ -132,21 +131,21 @@
 }
 
 .para {
-    padding:1.25em;
+    padding:20px;
     height:500px;
-    margin-top:0.0625em;
+    margin-top:11px;
     margin-left:150px;
     width: 439px;
 }
 
 .icons{
-    background-color:$container-color;
+    background-color:black;
     display: grid;
-    grid-gap: 1.25em;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: 12.5em;
-    width:99%;
-    // padding-top:12.5em;
+    grid-gap: 20px;
+    grid-template-columns: 25% 25% 25% 25%;
+    height: 200px;
+    width:100%;
+    padding-top:10px;
 }
 
 .icons > div{
@@ -156,8 +155,9 @@
     text-align:center;
     width: 250px;
     height: 150px;
-    border-radius: 0.3125em;
-    margin-top:0.3125em;
+    border-radius: 5px;
+    margin-top:10px;
+    padding-right:20px;
 }
 
 // styling for the layout of courses section
@@ -165,26 +165,26 @@
 .portfolio{
     padding-right:150px;
     padding-left: 150px;
-    padding-top:1.875em;
+    padding-top:100px;
     p{
         padding-right:300px;
-        font-size:1.125em;
+        font-size:18px;
     }
 }
 .gallery_container {
     display: grid;
-    grid-gap: 12.5em;
-    padding:1.25em;
+    grid-gap: 10px;
+    padding:20px;
   }
 
   .gallery_container >div {
     text-align: center;
-    font-size: 1.875em;
+    font-size: 30px;
   }
   .portfolio1 {
     grid-column: 1;
     grid-row: 1;
-    height:12.5em;
+    height:200px;
     width:250px;
   }
   .portfolio2 {
@@ -200,45 +200,45 @@
 
   .portfolio3{
       color:green;
-      height:12.5em;
+      height:200px;
       width:250px;
   }
 .portfolio4{
     grid-column:1;
     grid-row:3;
-    height:12.5em;
+    height:200px;
     width:250px;
-    padding-bottom: 1.25em;
+    padding-bottom: 20px;
 }
   .portfolio5 {
     grid-row: 3;
-    height:12.5em;
+    height:200px;
     width:250px;
-    padding-bottom:1.25em;
+    padding-bottom:20px;
   }
 
 
 /*About section*/
 .aboutPreview {
-    margin: 12.5em; }
+    margin: 10px; }
   
   .aboutPreview button {
-    padding: 8px 0.875em;
+    padding: 8px 14px;
     width: 130px;
-    font-size: 1.125em;
-    background-color: $heading-color;
-    color: $button-text-color;
-    border: 0.0625em solid $button-text-color;
-    border-radius: 0.3125em; }
+    font-size: 18px;
+    background-color: white;
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 5px; }
   
   .aboutPreview button:hover {
     width: 143px; }
   
   .aboutPreview p {
-    padding: 12.5em;
+    padding: 10px;
     padding-left: 0;
     padding-top: 0;
-    font-size: 1.875em; }
+    font-size: 16px; }
   
   .aboutPreview .imageGrid img:hover {
     transform: scale(1.2); }
@@ -249,9 +249,9 @@
 
 // styling for meet out team section
 .meet_the_team{
-    padding-right:1.875em;
+    padding-right:100px;
     padding-left: 120px;
-    padding-top:1.875em;
+    padding-top:30px;
 h1{
     margin-left:45px;
 }
@@ -261,62 +261,64 @@ h1{
 }
 .team_grid {
     display: grid;
+    /* Creating Columns */
     grid-template-columns:25% 25% 25% 25%;
-    grid-gap:0.9375em;
-    background-color: $heading-color;
-    color :$container-color;
+        /* Create spaces between items or "blocks" */
+    grid-gap:15px;
+    background-color: white;
+    color :black;
 }
 
 .team_grid > div {
     text-align: center;
-    font-size: 0.875em;
+    font-size: 14px;
     text-align: left;
     height: 250px;
   }
 
 .team_grid_2 {
     display: grid;
+    /* Creating Columns */
     grid-template-columns:25% 25% 25% 25%;
-    grid-gap:0.9375em;
-    background-color: $heading-color;
-    color :$container-color;
+        /* Create spaces between items or "blocks" */
+    grid-gap:15px;
+    background-color: white;
+    color :black;
+
 }
 
 .team_grid_2 > div {
-    text-align: center;
-    font-size: 0.875em;
-    text-align: left;
-    height: 250px;
+      text-align: center;
+      font-size: 14px;
+      text-align: left;
+      height: 250px;
   }
 
-//Styling for the Counter
+//   styling for counter
 .counter{
-    padding:3.125em 5%;
+    padding:50px 5%;
     width: 90%;
-    background-color:$container-color;
+    background-color:black;
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr;
-    background-color: $container-color;
-    color: $heading-color;
+    background-color: black;
+    color: white;
 }
-
 .counter h1, .counter p{
     text-align: center;
-}
 
+}
 .counter .line{
     height: 7px;
     width: 20%;
     background-color:$main-color;
     display: block;
     margin: 0 auto;
-    margin-bottom: 1.25em;
+    margin-bottom: 20px;
 }
-
 .counter h1{
-    font-size: 2.1875em; margin-bottom: 12.5em; margin-top: 12.5em;
+    font-size: 35px; margin-bottom: 10px; margin-top: 10px;
 }
-
 .counter p{
     margin-bottom: 40px;
 }
@@ -326,23 +328,23 @@ h1{
     height:150px;
 }
 
-//Styling for Carousel
+// carousel section
 
 .carousel{
-    background-color: $container-color;
+    background-color: black;
     width: 100%;
-    height: 12.5em;
+    height: 200px;
 }
 
 /* Secondary footer */
 .sub_footer{
-    margin: 12.5em;
+    margin: 10px;
     text-align: left;
 }
 
 /* Primary Footer */
 .primaryFooter{
-    padding: 12.5em;
+    padding: 10px;
     background-color: $main-color;
 }
 
@@ -355,55 +357,53 @@ h1{
     grid-template-columns: 1fr 1fr;
 
     i{
-        color:$heading-color;
-        padding:0.3125em;
+        color:white;
+        padding:5px;
     }
 }
-
-/*************Styling For the 'About Page starts here***********/
-
+/////////////////About Us //////////////////////////
 .secondaryNav{
     padding: 5% 0;
     width: 100%;
-    background-color:$background-color;
-    border: 0.0625em solid $container-color;
+    background-color:#ccc;
+    border: 1px solid black;
 }
 
 .secondaryNav div div {
-    width: 12.5em;
+    width: 200px;
     display: block;
     margin: 0 auto;
 }
 .secondaryNav div div h1{
     text-align: center;
-    margin: 1.25em;
+    margin: 20px;
 }
 .traverselinks{
     text-align: center;
-    color:$heading-color;
+    color:white;
 }
 .traverselinks a{
-    font-size: 0.9375em;
+    font-size: 15px;
     text-decoration: none;
-    color:$heading-color;
+    color:white;
 }
 
 // who we are section
 
 .info{
     display: grid;
-    grid-gap: 1.25em;
+    grid-gap: 20px;
     grid-template-columns: auto auto;
     height: 500px;
     width:100%;
-    padding-top:1.25em;
+    padding-top:20px;
 }
 .about > div {
     justify-content: center;
     align-items: center;
-    padding-right:12.5em;
-    padding-top: 12.5em;
-    padding-bottom: 1.25em;
+    padding-right:10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .welcomeImage{
@@ -416,13 +416,14 @@ h1{
     display:grid;
     grid-template-columns:1fr 1fr;
   }
-/*************Styling For the 'Contact Page' starts here***********/
+
+  //////////////////////////CONTACT PAGE STYLING////////////////////////////////////////
 
   .contactSection{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    height:300px;
-    padding:1.875em;
-    margin-left:3.125em;
-    color:$text-color;
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      height:300px;
+      padding:100px;
+      margin-left:50px;
+      color:$text-color;
   }

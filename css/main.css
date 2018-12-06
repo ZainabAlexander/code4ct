@@ -1,12 +1,11 @@
 body {
-  font-family: "Open Sans", sans-serif;
-  padding: 12.5em; }
+  font-family: "Open Sans", sans-serif; }
 
 img {
   width: 250px;
   height: 225px;
   display: block;
-  margin: 0.3125 auto; }
+  margin: 5px auto; }
 
 img:hover {
   filter: brightness(80%);
@@ -15,7 +14,7 @@ img:hover {
 .banner h1 {
   color: white;
   width: 500px;
-  height: 3.125em;
+  height: 50px;
   text-align: center;
   position: absolute;
   line-height: 1.2em;
@@ -27,7 +26,7 @@ img:hover {
 .banner p {
   color: white;
   width: 870px;
-  height: 3.125em;
+  height: 50px;
   line-height: 1.7em;
   text-align: center;
   position: absolute;
@@ -40,7 +39,7 @@ img:hover {
   padding: 10px;
   padding-left: 0;
   padding-top: 0;
-  font-size: 1.875em; }
+  font-size: 16px; }
 
 .icon {
   font-family: "Open Sans", sans-serif; }
@@ -50,12 +49,12 @@ h1 {
 
 i {
   font-family: FontAwesome;
-  font-size: 0.9375em;
+  font-size: 15px;
   color: #888888;
   text-decoration: none; }
 
 input {
-  padding: 0.3125em;
+  padding: 5px;
   margin-bottom: 10px;
   width: 150px;
   height: 22.5px; }
@@ -66,7 +65,7 @@ input {
 
 .logo a img {
   width: auto;
-  margin: 0.625em 12.5em 0 0.625em;
+  margin: 0.625em 200px 0 0.625em;
   height: 2.083em;
   float: left; }
 
@@ -77,24 +76,24 @@ input {
   margin-right: 1.250em; }
 
 .search_bar input {
-  height: 1.875em;
+  height: 30px;
   width: 10.250em;
   border: 1px solid #e38f84;
   padding: 4px;
-  font-size: 0.9375em; }
+  font-size: 15px; }
 
 #searchButton {
-  line-height: 1.875em;
-  width: 1.875em;
-  height: 1.875em;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
   margin-top: 1.250em;
-  border: 0.0625em solid #e38f84;
+  border: 1px solid #e38f84;
   background-color: #e38f84; }
 
 #searchButton:hover {
   color: white;
   margin-top: 1.250em;
-  border: 0.0625em solid #e38f84;
+  border: 1px solid #e38f84;
   background-color: #ccc; }
 
 .searchBar button, .searchBar input {
@@ -120,19 +119,19 @@ input {
   font-size: 1.125em;
   padding: 0.625em 1.000em;
   background-color: #e38f84;
-  border: 0.5px solid white;
+  border: 0.5px solid #ffffff;
   z-index: 10;
   color: white;
-  margin-top: 21.875em; }
+  margin-top: 350px; }
 
 .donate_button {
   background-color: black;
   font-size: 1.125em;
   padding: 0.625em 1.000em;
-  border: 0.5px solid white;
+  border: 0.5px solid #ffffff;
   z-index: 10;
   color: white;
-  margin-top: 21.875em; }
+  margin-top: 350px; }
 
 .mainButtons button:hover {
   background-color: #555555;
@@ -141,7 +140,7 @@ input {
 
 .lineouter {
   width: 1.500em;
-  height: 0.3125em;
+  height: 5px;
   background-color: #ccc;
   margin: 0.625em 0;
   margin-bottom: 0.875em;
@@ -161,13 +160,13 @@ input {
   width: 130px;
   font-size: 1.125em;
   background-color: white;
-  color: gray;
-  border: 2px solid gray;
+  color: grey;
+  border: 2px solid grey;
   transition: all 300ms ease-in-out;
   text-align: center; }
 
 button:hover {
-  padding-right: 0.9375em; }
+  padding-right: 15px; }
 
 .icons {
   background-color: black;
@@ -200,14 +199,14 @@ button:hover {
   color: #e38f84; }
 
 a {
-  padding: 0.3125em;
+  padding: 5px;
   text-decoration-line: none;
   text-decoration: none; }
 
 .subscribe h1 {
   text-align: center;
   margin-top: 1.250em;
-  margin-bottom: 0.3125em; }
+  margin-bottom: 5px; }
 
 .subscribe table {
   display: block;
@@ -220,34 +219,34 @@ a {
 
 .subscribe table tr td input {
   width: 100%;
-  height: 2.1875em;
+  height: 35px;
   outline: none;
   background-color: #f9f9f9; }
 
 .subscribe table tr td button {
   width: 9.250em;
   display: block;
-  height: 75em;
-  border: 0.0625em solid #e38f84;
+  height: 35px;
+  border: 1px solid #e38f84;
   outline: none;
-  font-size: 0.9375em;
+  font-size: 15px;
   background-color: #e38f84;
-  margin-left: 1.625em; }
+  margin-left: 0.625em; }
 
 .subscribe table tr td button:hover {
-  padding-right: 0.0625em; }
+  padding-right: 11px; }
 
 .container {
   width: 70%;
   display: block;
   margin: 0 auto;
   height: 178px;
-  border: 0.0625em solid black;
+  border: 1px solid black;
   overflow: hidden;
   background-color: black; }
 
 .sub {
-  height: 11.25em;
+  height: 180px;
   width: 5180px;
   background-color: black;
   animation-name: carousel;
@@ -260,7 +259,7 @@ a {
 .sub img {
   display: inline;
   width: auto;
-  height: 11.25em;
+  height: 180px;
   margin-right: 2.083em; }
 
 @keyframes carousel {
@@ -280,7 +279,7 @@ ul li {
   font-size: 1.125em; }
 
 .footerColumn1 a {
-  margin-right: 0.3125em;
+  margin-right: 5px;
   color: #666666; }
 .footerColumn1 i {
   margin-right: 0.625em; }
@@ -289,8 +288,8 @@ ul li {
   margin-left: 12px; }
 
 #back2Top {
-  width: 4.375em;
-  line-height: 4.375em;
+  width: 70px;
+  line-height: 70px;
   overflow: hidden;
   z-index: 999;
   display: none;
@@ -301,14 +300,14 @@ ul li {
   -ms-transform: rotate(270deg);
   transform: rotate(270deg);
   position: fixed;
-  bottom: 4.375em;
-  right: 3.125em;
+  bottom: 70px;
+  right: 50px;
   background-color: #DDD;
   color: #555;
   text-align: center;
-  font-size: 1.875em;
+  font-size: 30px;
   text-decoration: none;
-  border: 0.0625em solid black; }
+  border: 1px solid black; }
 
 #back2Top:hover {
   background-color: #e38f84;
@@ -316,16 +315,16 @@ ul li {
   transition: 0.9s; }
 
 .welcomeButton {
-  padding: 12.5em 1.875em;
-  border: 0.0625em solid #e38f84;
+  padding: 10px 16px;
+  border: 1px solid #e38f84;
   background-color: #e38f84;
   color: white;
-  border-radius: 0.3125em;
-  margin-top: 12.5em;
-  font-size: 1.125em; }
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 18px; }
 
 .welcomeButton:hover {
-  padding: 12.5em 17.6px; }
+  padding: 10px 17.6px; }
 
 .welcomeImage > img {
   height: 400px;
@@ -343,7 +342,7 @@ ul li {
   padding: 0 5%; }
 
 .whoWeAreText p {
-  padding: 12.5em 0; }
+  padding: 10px 0; }
 
 .emailButton {
   padding: 12.5em 1em;
@@ -355,11 +354,11 @@ ul li {
   font-size: 1.125em; }
 
 .contactInfo {
-  padding: 1.875em; }
+  padding: 30px; }
 
 .contactHeading {
-  padding-left: 1.25em;
-  margin-bottom: 1.25em; }
+  padding-left: 20px;
+  margin-bottom: 20px; }
 
 .navbar {
   position: sticky;
@@ -368,26 +367,26 @@ ul li {
   z-index: 1; }
 
 .nav {
-  height: 4.375em;
+  height: 70px;
   top: 0;
   z-index: 20;
   background-color: white;
-  padding-left: 3.125em;
-  padding-right: 3.125em; }
+  padding-left: 50px;
+  padding-right: 50px; }
 
 .nav a {
-  margin: 12.5em 0 0 12.5em;
+  margin: 10px 0 0 10px;
   background-color: white;
   float: left;
   display: block;
   color: #666666;
   text-align: center;
-  padding: 0.875em 1.875em;
+  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px; }
 
 .dropdown {
-  margin: 12.5em 0 0 12.5em;
+  margin: 10px 0 0 10px;
   float: left; }
 
 .dropdown .dropbtn {
@@ -397,7 +396,7 @@ ul li {
   margin: 0;
   font-family: inherit;
   color: #666666;
-  padding: 0.875em 1.875em;
+  padding: 14px 16px;
   background-color: white;
   margin: 0; }
 
@@ -406,18 +405,18 @@ ul li {
   position: absolute;
   background-color: white;
   min-width: 160px;
-  box-shadow: 0px 8px 1.875em rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1; }
 
 .drop_content a {
   display: block;
   float: none;
   color: #e38f84;
-  padding: 12px 1.875em;
+  padding: 12px 16px;
   text-decoration: none;
   text-align: left; }
 
-.nav a:hover .dropdown:hover .dropbtn {
+.nav a:hover, dropdown:hover .dropbtn {
   background-color: #555;
   color: white;
   transition: 1s ease-in-out; }
@@ -431,7 +430,7 @@ ul li {
   width: 100%;
   height: 800px;
   background-color: #4e4e4e;
-  margin-top: 12.5em;
+  margin-top: 10px;
   background-size: cover;
   background-blend-mode: multiply; }
 
@@ -440,30 +439,30 @@ ul li {
   margin: 0 auto;
   position: relative;
   width: 60%;
-  padding: 40px 3.125em;
+  padding: 40px 50px;
   color: white;
   height: 50%;
   top: 20%; }
 
 .about {
   display: grid;
-  grid-gap: 1.25em;
+  grid-gap: 20px;
   grid-template-columns: auto auto;
   height: 600px;
   width: 100%;
-  padding-top: 1.25em; }
+  padding-top: 20px; }
 
 .about > div {
   justify-content: center;
   align-items: center;
-  padding-right: 12.5em;
-  padding-top: 12.5em;
-  padding-bottom: 1.25em; }
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px; }
 
 .images_gallery {
   display: grid;
   grid-template-columns: auto auto;
-  grid-gap: 0.3125em;
+  grid-gap: 5px;
   margin-bottom: 115px;
   margin-right: 133px; }
   .images_gallery .images_gallery img:hover {
@@ -475,19 +474,20 @@ ul li {
   height: 230px; }
 
 .para {
-  padding: 1.25em;
+  padding: 20px;
   height: 500px;
-  margin-top: 0.0625em;
+  margin-top: 11px;
   margin-left: 150px;
   width: 439px; }
 
 .icons {
   background-color: black;
   display: grid;
-  grid-gap: 1.25em;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  height: 12.5em;
-  width: 99%; }
+  grid-gap: 20px;
+  grid-template-columns: 25% 25% 25% 25%;
+  height: 200px;
+  width: 100%;
+  padding-top: 10px; }
 
 .icons > div {
   display: grid;
@@ -496,30 +496,31 @@ ul li {
   text-align: center;
   width: 250px;
   height: 150px;
-  border-radius: 0.3125em;
-  margin-top: 0.3125em; }
+  border-radius: 5px;
+  margin-top: 10px;
+  padding-right: 20px; }
 
 .portfolio {
   padding-right: 150px;
   padding-left: 150px;
-  padding-top: 1.875em; }
+  padding-top: 100px; }
   .portfolio p {
     padding-right: 300px;
-    font-size: 1.125em; }
+    font-size: 18px; }
 
 .gallery_container {
   display: grid;
-  grid-gap: 12.5em;
-  padding: 1.25em; }
+  grid-gap: 10px;
+  padding: 20px; }
 
 .gallery_container > div {
   text-align: center;
-  font-size: 1.875em; }
+  font-size: 30px; }
 
 .portfolio1 {
   grid-column: 1;
   grid-row: 1;
-  height: 12.5em;
+  height: 200px;
   width: 250px; }
 
 .portfolio2 {
@@ -532,43 +533,43 @@ ul li {
 
 .portfolio3 {
   color: green;
-  height: 12.5em;
+  height: 200px;
   width: 250px; }
 
 .portfolio4 {
   grid-column: 1;
   grid-row: 3;
-  height: 12.5em;
+  height: 200px;
   width: 250px;
-  padding-bottom: 1.25em; }
+  padding-bottom: 20px; }
 
 .portfolio5 {
   grid-row: 3;
-  height: 12.5em;
+  height: 200px;
   width: 250px;
-  padding-bottom: 1.25em; }
+  padding-bottom: 20px; }
 
 /*About section*/
 .aboutPreview {
-  margin: 12.5em; }
+  margin: 10px; }
 
 .aboutPreview button {
-  padding: 8px 0.875em;
+  padding: 8px 14px;
   width: 130px;
-  font-size: 1.125em;
+  font-size: 18px;
   background-color: white;
-  color: gray;
-  border: 0.0625em solid gray;
-  border-radius: 0.3125em; }
+  color: grey;
+  border: 1px solid grey;
+  border-radius: 5px; }
 
 .aboutPreview button:hover {
   width: 143px; }
 
 .aboutPreview p {
-  padding: 12.5em;
+  padding: 10px;
   padding-left: 0;
   padding-top: 0;
-  font-size: 1.875em; }
+  font-size: 16px; }
 
 .aboutPreview .imageGrid img:hover {
   transform: scale(1.2); }
@@ -577,9 +578,9 @@ ul li {
   background-size: cover; }
 
 .meet_the_team {
-  padding-right: 1.875em;
+  padding-right: 100px;
   padding-left: 120px;
-  padding-top: 1.875em; }
+  padding-top: 30px; }
   .meet_the_team h1 {
     margin-left: 45px; }
   .meet_the_team .lineOuter {
@@ -587,32 +588,36 @@ ul li {
 
 .team_grid {
   display: grid;
+  /* Creating Columns */
   grid-template-columns: 25% 25% 25% 25%;
-  grid-gap: 0.9375em;
+  /* Create spaces between items or "blocks" */
+  grid-gap: 15px;
   background-color: white;
   color: black; }
 
 .team_grid > div {
   text-align: center;
-  font-size: 0.875em;
+  font-size: 14px;
   text-align: left;
   height: 250px; }
 
 .team_grid_2 {
   display: grid;
+  /* Creating Columns */
   grid-template-columns: 25% 25% 25% 25%;
-  grid-gap: 0.9375em;
+  /* Create spaces between items or "blocks" */
+  grid-gap: 15px;
   background-color: white;
   color: black; }
 
 .team_grid_2 > div {
   text-align: center;
-  font-size: 0.875em;
+  font-size: 14px;
   text-align: left;
   height: 250px; }
 
 .counter {
-  padding: 3.125em 5%;
+  padding: 50px 5%;
   width: 90%;
   background-color: black;
   display: grid;
@@ -629,12 +634,12 @@ ul li {
   background-color: #e38f84;
   display: block;
   margin: 0 auto;
-  margin-bottom: 1.25em; }
+  margin-bottom: 20px; }
 
 .counter h1 {
-  font-size: 2.1875em;
-  margin-bottom: 12.5em;
-  margin-top: 12.5em; }
+  font-size: 35px;
+  margin-bottom: 10px;
+  margin-top: 10px; }
 
 .counter p {
   margin-bottom: 40px; }
@@ -646,16 +651,16 @@ ul li {
 .carousel {
   background-color: black;
   width: 100%;
-  height: 12.5em; }
+  height: 200px; }
 
 /* Secondary footer */
 .sub_footer {
-  margin: 12.5em;
+  margin: 10px;
   text-align: left; }
 
 /* Primary Footer */
 .primaryFooter {
-  padding: 12.5em;
+  padding: 10px;
   background-color: #e38f84; }
 
 .primaryFooter {
@@ -666,47 +671,46 @@ ul li {
   grid-template-columns: 1fr 1fr; }
   .primaryFooter i {
     color: white;
-    padding: 0.3125em; }
+    padding: 5px; }
 
-/*************Styling For the 'About Page starts here***********/
 .secondaryNav {
   padding: 5% 0;
   width: 100%;
   background-color: #ccc;
-  border: 0.0625em solid black; }
+  border: 1px solid black; }
 
 .secondaryNav div div {
-  width: 12.5em;
+  width: 200px;
   display: block;
   margin: 0 auto; }
 
 .secondaryNav div div h1 {
   text-align: center;
-  margin: 1.25em; }
+  margin: 20px; }
 
 .traverselinks {
   text-align: center;
   color: white; }
 
 .traverselinks a {
-  font-size: 0.9375em;
+  font-size: 15px;
   text-decoration: none;
   color: white; }
 
 .info {
   display: grid;
-  grid-gap: 1.25em;
+  grid-gap: 20px;
   grid-template-columns: auto auto;
   height: 500px;
   width: 100%;
-  padding-top: 1.25em; }
+  padding-top: 20px; }
 
 .about > div {
   justify-content: center;
   align-items: center;
-  padding-right: 12.5em;
-  padding-top: 12.5em;
-  padding-bottom: 1.25em; }
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px; }
 
 .welcomeImage {
   padding-top: 60px;
@@ -716,13 +720,12 @@ ul li {
   display: grid;
   grid-template-columns: 1fr 1fr; }
 
-/*************Styling For the 'Contact Page' starts here***********/
 .contactSection {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 300px;
-  padding: 1.875em;
-  margin-left: 3.125em;
+  padding: 100px;
+  margin-left: 50px;
   color: #666666; }
 
 @media screen and (min-width: 1200px) {
