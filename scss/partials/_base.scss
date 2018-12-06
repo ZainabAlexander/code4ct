@@ -1,21 +1,26 @@
 // Basestyles
- 
+
+//  Styles for the body
 body{
  font-family:$icon-font;
  padding:$padding;
 }
 
+// Styles for images
 img {
     width: 250px;
     height:225px;
     display: block;
     margin: 0.3125 auto;
 }
-  
-  img:hover {
-    filter: brightness(80%);
-    transform: scale(1.1); }
 
+//Hover effect for all images
+img:hover {
+    filter: brightness(80%);
+    transform: scale(1.1); 
+}
+
+// Styles for text in the banner class
 .banner {
     h1{
         color:$heading-color;
@@ -53,24 +58,25 @@ img {
   padding-top: 0;
   font-size: 1.875em
 }
-
+// Styles for icons
 .icon{
     font-family: $icon-font;
 }
 
-// Fonts Variable
-
-
+// Styles for h1 tag
 h1{
     margin-bottom: 10px;
 }
 
+//  Styles for i tag
 i{
   font-family: FontAwesome;
   font-size: 0.9375em;
   color: $icon-color;
   text-decoration: none;
 }
+
+// Styles for input tag
 input{
     padding:0.3125em;
     margin-bottom:10px;

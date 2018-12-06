@@ -88,13 +88,13 @@ input {
   width: 1.875em;
   height: 1.875em;
   margin-top: 1.250em;
-  border: 1px solid #e38f84;
+  border: 0.0625em solid #e38f84;
   background-color: #e38f84; }
 
 #searchButton:hover {
   color: white;
   margin-top: 1.250em;
-  border: 1px solid #e38f84;
+  border: 0.0625em solid #e38f84;
   background-color: #ccc; }
 
 .searchBar button, .searchBar input {
@@ -120,7 +120,7 @@ input {
   font-size: 1.125em;
   padding: 0.625em 1.000em;
   background-color: #e38f84;
-  border: 0.5px solid #ffffff;
+  border: 0.5px solid white;
   z-index: 10;
   color: white;
   margin-top: 21.875em; }
@@ -129,7 +129,7 @@ input {
   background-color: black;
   font-size: 1.125em;
   padding: 0.625em 1.000em;
-  border: 0.5px solid #ffffff;
+  border: 0.5px solid white;
   z-index: 10;
   color: white;
   margin-top: 21.875em; }
@@ -161,8 +161,8 @@ input {
   width: 130px;
   font-size: 1.125em;
   background-color: white;
-  color: grey;
-  border: 2px solid grey;
+  color: gray;
+  border: 2px solid gray;
   transition: all 300ms ease-in-out;
   text-align: center; }
 
@@ -220,29 +220,29 @@ a {
 
 .subscribe table tr td input {
   width: 100%;
-  height: 35px;
+  height: 2.1875em;
   outline: none;
   background-color: #f9f9f9; }
 
 .subscribe table tr td button {
   width: 9.250em;
   display: block;
-  height: 35px;
-  border: 1px solid #e38f84;
+  height: 75em;
+  border: 0.0625em solid #e38f84;
   outline: none;
   font-size: 0.9375em;
   background-color: #e38f84;
   margin-left: 1.625em; }
 
 .subscribe table tr td button:hover {
-  padding-right: 11px; }
+  padding-right: 0.0625em; }
 
 .container {
   width: 70%;
   display: block;
   margin: 0 auto;
   height: 178px;
-  border: 1px solid black;
+  border: 0.0625em solid black;
   overflow: hidden;
   background-color: black; }
 
@@ -308,7 +308,7 @@ ul li {
   text-align: center;
   font-size: 1.875em;
   text-decoration: none;
-  border: 1px solid black; }
+  border: 0.0625em solid black; }
 
 #back2Top:hover {
   background-color: #e38f84;
@@ -317,7 +317,7 @@ ul li {
 
 .welcomeButton {
   padding: 12.5em 1.875em;
-  border: 1px solid #e38f84;
+  border: 0.0625em solid #e38f84;
   background-color: #e38f84;
   color: white;
   border-radius: 0.3125em;
@@ -347,7 +347,7 @@ ul li {
 
 .emailButton {
   padding: 12.5em 1em;
-  border: 1px solid #e38f84;
+  border: 0.0625em solid #e38f84;
   background-color: #e38f84;
   color: white;
   border-radius: 0.3125em;
@@ -382,7 +382,7 @@ ul li {
   display: block;
   color: #666666;
   text-align: center;
-  padding: 14px 1.875em;
+  padding: 0.875em 1.875em;
   text-decoration: none;
   font-size: 17px; }
 
@@ -397,7 +397,7 @@ ul li {
   margin: 0;
   font-family: inherit;
   color: #666666;
-  padding: 14px 1.875em;
+  padding: 0.875em 1.875em;
   background-color: white;
   margin: 0; }
 
@@ -417,7 +417,7 @@ ul li {
   text-decoration: none;
   text-align: left; }
 
-.nav a:hover, dropdown:hover .dropbtn {
+.nav a:hover .dropdown:hover .dropbtn {
   background-color: #555;
   color: white;
   transition: 1s ease-in-out; }
@@ -477,7 +477,7 @@ ul li {
 .para {
   padding: 1.25em;
   height: 500px;
-  margin-top: 11px;
+  margin-top: 0.0625em;
   margin-left: 150px;
   width: 439px; }
 
@@ -553,12 +553,12 @@ ul li {
   margin: 12.5em; }
 
 .aboutPreview button {
-  padding: 8px 14px;
+  padding: 8px 0.875em;
   width: 130px;
   font-size: 1.125em;
   background-color: white;
-  color: grey;
-  border: 1px solid grey;
+  color: gray;
+  border: 0.0625em solid gray;
   border-radius: 0.3125em; }
 
 .aboutPreview button:hover {
@@ -587,31 +587,27 @@ ul li {
 
 .team_grid {
   display: grid;
-  /* Creating Columns */
   grid-template-columns: 25% 25% 25% 25%;
-  /* Create spaces between items or "blocks" */
   grid-gap: 0.9375em;
   background-color: white;
   color: black; }
 
 .team_grid > div {
   text-align: center;
-  font-size: 14px;
+  font-size: 0.875em;
   text-align: left;
   height: 250px; }
 
 .team_grid_2 {
   display: grid;
-  /* Creating Columns */
   grid-template-columns: 25% 25% 25% 25%;
-  /* Create spaces between items or "blocks" */
   grid-gap: 0.9375em;
   background-color: white;
   color: black; }
 
 .team_grid_2 > div {
   text-align: center;
-  font-size: 14px;
+  font-size: 0.875em;
   text-align: left;
   height: 250px; }
 
@@ -636,7 +632,7 @@ ul li {
   margin-bottom: 1.25em; }
 
 .counter h1 {
-  font-size: 35px;
+  font-size: 2.1875em;
   margin-bottom: 12.5em;
   margin-top: 12.5em; }
 
@@ -672,11 +668,12 @@ ul li {
     color: white;
     padding: 0.3125em; }
 
+/*************Styling For the 'About Page starts here***********/
 .secondaryNav {
   padding: 5% 0;
   width: 100%;
   background-color: #ccc;
-  border: 1px solid black; }
+  border: 0.0625em solid black; }
 
 .secondaryNav div div {
   width: 12.5em;
@@ -719,6 +716,7 @@ ul li {
   display: grid;
   grid-template-columns: 1fr 1fr; }
 
+/*************Styling For the 'Contact Page' starts here***********/
 .contactSection {
   display: grid;
   grid-template-columns: 1fr 1fr;
