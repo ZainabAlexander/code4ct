@@ -1,5 +1,6 @@
 body {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  padding: 20px; }
 
 img {
   width: 250px;
@@ -449,7 +450,7 @@ ul li {
   grid-gap: 20px;
   grid-template-columns: auto auto;
   height: 600px;
-  width: 100%;
+  width: 70%;
   padding-top: 20px; }
 
 .about > div {
@@ -463,8 +464,7 @@ ul li {
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 5px;
-  margin-bottom: 115px;
-  margin-right: 133px; }
+  margin-bottom: 115px; }
   .images_gallery .images_gallery img:hover {
     transform: scale(1.2); }
 
