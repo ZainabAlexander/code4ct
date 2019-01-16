@@ -89,17 +89,15 @@
     padding-right: 1.063em; 
 }
 
-.lineouter{
-    width:1.500em;
-    height:5px;
+.lineOuter{
+    width:10.5em;
+    
     background-color:#ccc;
-    margin: 0.625em 0;
-    margin-bottom:0.875em;
-    margin-top:0.875em;
+
 }
 
 .lineInner{
-    width: 10%;
+    width: 30%;
     background-color:red;
     height:1.5px;
     display: block;
