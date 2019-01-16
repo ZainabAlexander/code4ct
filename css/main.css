@@ -578,7 +578,8 @@ ul li {
 .meet_the_team {
   padding-right: 100px;
   padding-left: 120px;
-  padding-top: 30px; }
+  padding-top: 20px;
+  padding-bottom: 20px; }
   .meet_the_team h1 {
     margin-left: 45px; }
   .meet_the_team .lineOuter {
@@ -586,9 +587,7 @@ ul li {
 
 .team_grid {
   display: grid;
-  /* Creating Columns */
   grid-template-columns: 25% 25% 25% 25%;
-  /* Create spaces between items or "blocks" */
   grid-gap: 15px;
   background-color: white;
   color: black; }
@@ -746,11 +745,7 @@ ul li {
     padding: 100px 15%;
     width: 70%; }
 
-  .meetOurTeam {
-    padding: 100px 5%;
-    width: 70%; }
-
-  .meetOurTeam {
+  .meet_the_team {
     padding: 100px 15%;
     width: 70%; }
 
