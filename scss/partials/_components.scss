@@ -183,14 +183,14 @@ a{
     background-color:#f9f9f9;
 }
 .subscribe table tr td button{
-    width: 9.250em;
     display: block;
-    height: 35px;
     border:1px solid $main-color;
     outline: none;
     font-size: 15px;
     background-color: $main-color;
     margin-left:0.625em;
+    width: 100px;
+    height: 40px;
 }
 .subscribe table tr td button:hover{
     padding-right: 11px;
@@ -340,3 +340,14 @@ ul li{
       padding-left:20px;
       margin-bottom: 20px;
   }
+
+//   Portfolio page styling
+
+.outerLine{
+@include outerLine;
+text-align: center;
+}
+
+.innerLine{
+@include innerLine;
+}

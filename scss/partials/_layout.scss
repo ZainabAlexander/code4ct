@@ -247,18 +247,7 @@
     }
 
 // styling for meet out team section
-.meet_the_team{
-    padding-right:100px;
-    padding-left: 120px;
-    padding-top:20px;
-    padding-bottom: 20px;
-h1{
-    margin-left:45px;
-}
-.lineOuter{
-    margin-left:45px;
-}
-}
+
 .team_grid {
     display: grid;
     grid-template-columns:25% 25% 25% 25%;
@@ -425,3 +414,26 @@ h1{
       margin-left:50px;
       color:$text-color;
   }
+
+
+//   Portfolio page Styling
+
+.description > h1{
+font-size: 24px;
+text-align:center;
+color:$text-color;
+}
+
+.description{
+    text-align:center;
+}
+
+.portfolioGrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+}
+
+.porfolioGrid > div{
+    background-color: aqua;
+}

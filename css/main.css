@@ -46,7 +46,10 @@ img:hover {
   font-family: "Open Sans", sans-serif; }
 
 h1 {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 26px;
+  text-align: left; }
 
 i {
   font-family: FontAwesome;
@@ -59,6 +62,9 @@ input {
   margin-bottom: 10px;
   width: 150px;
   height: 22.5px; }
+
+p {
+  font-size: 14px; }
 
 .logo a {
   margin: 0;
@@ -223,14 +229,14 @@ a {
   background-color: #f9f9f9; }
 
 .subscribe table tr td button {
-  width: 9.250em;
   display: block;
-  height: 35px;
   border: 1px solid #e38f84;
   outline: none;
   font-size: 15px;
   background-color: #e38f84;
-  margin-left: 0.625em; }
+  margin-left: 0.625em;
+  width: 100px;
+  height: 40px; }
 
 .subscribe table tr td button:hover {
   padding-right: 11px; }
@@ -358,6 +364,22 @@ ul li {
 .contactHeading {
   padding-left: 20px;
   margin-bottom: 20px; }
+
+.outerLine {
+  width: 14.5em;
+  background-color: #ccc;
+  text-align: center;
+  margin-left: 617px;
+  text-align: center; }
+
+.innerLine {
+  width: 30%;
+  background-color: red;
+  height: 1.5px;
+  display: block;
+  margin: 10px auto;
+  position: relative;
+  bottom: 0; }
 
 .navbar {
   position: sticky;
@@ -575,16 +597,6 @@ ul li {
 .largeImage {
   background-size: cover; }
 
-.meet_the_team {
-  padding-right: 100px;
-  padding-left: 120px;
-  padding-top: 20px;
-  padding-bottom: 20px; }
-  .meet_the_team h1 {
-    margin-left: 45px; }
-  .meet_the_team .lineOuter {
-    margin-left: 45px; }
-
 .team_grid {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -725,6 +737,22 @@ ul li {
   margin-left: 50px;
   color: #666666; }
 
+.description > h1 {
+  font-size: 24px;
+  text-align: center;
+  color: #666666; }
+
+.description {
+  text-align: center; }
+
+.portfolioGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr; }
+
+.porfolioGrid > div {
+  background-color: aqua; }
+
 @media screen and (min-width: 1200px) {
   .icons div {
     margin: 0; }
@@ -742,11 +770,11 @@ ul li {
     grid-template-columns: auto auto auto auto; }
 
   .portfolio {
-    padding: 100px 15%;
+    padding: 50px 15%;
     width: 70%; }
 
   .meet_the_team {
-    padding: 100px 15%;
+    padding: 50px 15%;
     width: 70%; }
 
   .meetOurTeam .teamGrid {

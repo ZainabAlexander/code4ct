@@ -61,19 +61,27 @@ body{
    // Fonts Variable
    
    
-   h1{
-       margin-bottom: 10px;
-   }
+h1{
+    margin-bottom: 10px;
+    font-size:24px;
+    line-height: 26px;
+    text-align:left;
+}
    
-   i{
-     font-family: FontAwesome;
-     font-size: 15px;
-     color: $icon-color;
-     text-decoration: none;
-   }
-   input{
-       padding:5px;
-       margin-bottom:10px;
-       width:150px;
-       height:22.5px;
-   }
+i{
+    font-family: FontAwesome;
+    font-size: 15px;
+    color: $icon-color;
+    text-decoration: none;
+}
+
+input{
+    padding:5px;
+    margin-bottom:10px;
+    width:150px;
+    height:22.5px;
+}
+
+p{
+    font-size:14px;
+}
