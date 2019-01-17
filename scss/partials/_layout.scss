@@ -427,13 +427,3 @@ color:$text-color;
 .description{
     text-align:center;
 }
-
-.portfolioGrid{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows:1fr 1fr 1fr;
-}
-
-.porfolioGrid > div{
-    background-color: aqua;
-}
