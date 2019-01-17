@@ -427,3 +427,42 @@ color:$text-color;
 .description{
     text-align:center;
 }
+
+
+.portfolioGrid{
+    display:grid;
+    grid-template-columns: 23% 23% 31% 23%;
+    width:100%;
+}
+.portfolioGrid2{
+    display: grid;
+    grid-template-columns: 23% 31% 23% 23%;
+    width:100%;
+    margin-top:-47px;
+}
+.portfolioGrid3{
+    display:grid;
+    grid-template-columns: 23% 23% 31% 23%;
+    width:100%;
+    margin-top:-47px;
+}
+
+.portfolioImage1 img{
+    width:100%;
+    height: 422px;
+}
+
+.portfolioImage2 img{
+    width:100%;
+    height: 422px;
+}
+
+.portfolioImage3 img{
+    width:100%;
+    height: 422px;
+}
+
+.portfolioImage4 img{
+    width:100%;
+    height: 422px;
+}
