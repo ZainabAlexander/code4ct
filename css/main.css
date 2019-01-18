@@ -778,20 +778,25 @@ ul li {
   width: 100%;
   height: 422px; }
 
-.galleryNav {
+.pagination {
+  display: inline-block;
+  padding: 15px;
   text-align: center;
-  padding: 10px; }
+  margin-left: 43%; }
 
-.galleryNav a {
-  border-style: solid;
-  border-color: black;
-  padding: 8px; }
+.pagination a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid;
+  border-color: black; }
 
-span {
-  border-style: solid;
-  border-color: black;
+.pagination a.active {
   background-color: #e38f84;
-  padding: 10px; }
+  color: white; }
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd; }
 
 @media screen and (min-width: 1200px) {
   .icons div {

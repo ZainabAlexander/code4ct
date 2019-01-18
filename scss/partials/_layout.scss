@@ -467,20 +467,26 @@ color:$text-color;
     height: 422px;
 }
 
-.galleryNav{
-    text-align: center;
-    padding:10px;
-}
-
-.galleryNav a{
-    border-style: solid;
-    border-color: $container-color;
-    padding:8px;
-}
-
-span{
-    border-style:solid;
+.pagination {
+    display: inline-block;
+    padding:15px;
+    text-align:center;
+    margin-left:43%;
+  }
+  
+  .pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    border:1px solid ;
     border-color:$container-color;
+  }
+  
+  .pagination a.active {
     background-color:$main-color;
-    padding:10px;
-}
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
+    }
