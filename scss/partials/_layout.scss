@@ -380,9 +380,9 @@
 .info{
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     height: 500px;
-    width:100%;
+    width:99%;
     padding-top:20px;
 }
 .about > div {
@@ -395,7 +395,7 @@
 
 .welcomeImage{
     padding-top:60px;
-    padding-right:250px;
+    padding-right:20px;
 
 }
     
