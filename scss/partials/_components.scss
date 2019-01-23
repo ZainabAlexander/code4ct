@@ -1,29 +1,27 @@
 // Custom 
 // Styling for logo
-.logo a {
-    margin:0;
-    padding-right:2.083em;
-}
 
-.logo a img{
+.navbar-item img{
     width:auto;
     margin: 0.625em 200px 0 0.625em;
-    height:2.083em;
+    height:1.900em;
     float:left;
 }
 // search bar styling
 .search_bar {
-    /*height: ;*/
     display: block;
-    float: right;
-    margin-right: 1.250em; }
+    justify-content: flex-end;
+    margin-right: 1.250em;
+    float:right; 
+}
   
   .search_bar input {
     height: 30px;
     width: 10.250em;
     border: 1px solid $main-color;
     padding: 4px;
-    font-size: 15px; }
+    font-size: 15px;
+    justify-content: flex-end; }
   
   #searchButton {
     line-height: 30px;
@@ -31,7 +29,8 @@
     height: 30px;
     margin-top: 1.250em;
     border: 1px solid $main-color;
-    background-color: $main-color;
+    background-color: transparent;
+    justify-content: flex-end;
  }
   
   #searchButton:hover {

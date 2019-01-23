@@ -16,41 +16,48 @@
     <a id="back2Top" title="back yo top" href="#">&#10148;</a>
     <script src="js/buttonUp.js"></script>
     <!-- Navigation bar starts here -->
-    <div class="navbar">
-        <section>
-            <nav class="nav" id="nav">
-              <div class="logo"><a href="#home" style="margin:0;padding:0;background-color: white;"><img src="images/code4ct-logo-1.jpg" alt="code4ct logo" class="active"></a></div>       
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item">
+            <img src="images/code4ct-logo-1.jpg" width="150" height="225">
+          </a>
+      
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a href="index.html" class="navbar-item">
+              Home
+            </a>
+      
+            <a href="courses.html" class="navbar-item">
+              Courses
+            </a>
+            
+            <a href="portfolio.html" class="navbar-item">
+                Portfolio
+            </a>
+      
+             <a href="contact.html" class="navbar-item">
+                Contact
+            </a>
 
-                <a href="#home id="active" style="color:#e38f84;">Home</a>
-                
-                <!-- Dropdown button for Courses link -->
-                <div class="dropdown">
-                    <button class="dropbtn">Courses<i class="fa fa-caret-down"></i></button>
-                        <div class="drop_content">
-                            <a href="courses.html">Courses</a>
-                            <a href="#">Curriculum</a>
-                         </div>
-                </div>
-                <!-- Drop down button for about link -->
-                <div class="dropdown">
-                    <button class="dropbtn">About<i class="fa fa-caret-down"></i></button>
-                        <div class="drop_content">
-                            <a href="about.html">About Us</a>
-                            <a href="#">Welcome to Code4ct</a>
-                            <a href="#">Who we are</a>
-                            <a href="#">Team</a>
-                        </div>
-                </div>             
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-                <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()"><i class="fas fa-bars"></i></a>
-                <div class="search_bar">
-                    <input type="search" placeholder="Search..." id="searchField">
-                    <button id="searchButton"><i class="fa fa-search"></i></button>
-                </div>
-            </nav>
-        </section>
-    </div>
+            <a href="about.html" class="navbar-item">
+                About
+            </a>
+
+            <div class="search_bar">
+                <input type="search" placeholder="Search..." id="searchField">
+                <button id="searchButton"><i class="fa fa-search"></i></button>
+            </div>
+          </div>
+        </div>
+      </nav>
      <!-- Navigation bar ends here -->
      <!-- styling for the banner starts here -->
     <section class="banner" id="home">
