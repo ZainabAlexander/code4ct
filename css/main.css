@@ -66,12 +66,6 @@ input {
 p {
   font-size: 14px; }
 
-.navbar-item img {
-  width: auto;
-  margin: 0.625em 200px 0 0.625em;
-  height: 1.900em;
-  float: left; }
-
 .search_bar {
   display: block;
   justify-content: flex-end;
@@ -809,5 +803,32 @@ ul li {
 
   .meetOurTeam .teamGrid {
     margin: 30px 0; } }
+@media screen and (max-width: 800px) {
+  .search_bar {
+    display: none; }
+
+  nav {
+    max-width: 400px; }
+
+  nav a {
+    max-width: 50px; }
+
+  .about {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 1100px; }
+
+  .icons {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    height: 1200px;
+    margin-left: 10px;
+    width: 99%;
+    padding-left: 384px; }
+
+  .gallery_container {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */
