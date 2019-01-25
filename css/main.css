@@ -1092,6 +1092,25 @@ ul li {
     width: 100%; }
 
   .info {
-    padding: 0; } }
+    padding: 0; }
+
+  .para {
+    margin-left: 0; }
+
+  .welcomeImage > img {
+    margin-left: 0;
+    max-width: 100%; }
+
+  .whoWeAreSection > img {
+    max-width: 100%; }
+
+  .whoWeAreText {
+    max-width: 100%; }
+
+  .subscribe {
+    max-width: 100%; }
+
+  .subscribe table {
+    margin: 0; } }
 
 /*# sourceMappingURL=main.css.map */
