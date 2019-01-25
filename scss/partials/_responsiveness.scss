@@ -102,6 +102,48 @@
 
 
 @media screen and (max-width:1070px){
+
+  .icons{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: auto auto;
+    height:521px;
+    margin-left:10px;
+    width:95%;
+  }
+
+  .lineInner{
+    text-align: center;
+  }
+  .lineOuter{
+    text-align: center;
+  }
+  .portfolio h1{
+    text-align: center;
+  }
+
+  .portfolio p{
+    text-align: center;
+    width:100%;
+  }
+
+  .meet_the_team h1 {
+    text-align:center;
+  }
+
+  .team_info {
+    text-align: center;
+  }
+
+  .gallery_container{
+    display:none;
+  }
+  .about{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height:1100px;
+  }
   .team_grid{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -115,7 +157,7 @@
   }
   .banner{
     background-image: none;
-    width: 260%;
+    width: 100%;
     height: 800px;
     background-color: #4e4e4e;
     margin-top: 10px;
@@ -146,7 +188,7 @@
     transform: translate(-50%, 50%);
     padding: -53px;
     padding-left: none;
-    margin-left: -280px;
+    margin-left: -225px;
     line-height: none;
     text-align: none;
     margin-top: -80px;
@@ -165,7 +207,7 @@
   transform: translate(-50%, 50%);
   padding: -53px;
   padding-left: none;
-  margin-left: -303px;
+  margin-left: -255px;
   line-height: none;
   text-align: none;
  
@@ -187,9 +229,120 @@
   margin: 185px 0px;
   margin-right:20px;
 }
+///////////////////////////////////////////////////////////////////////
+
+.secondaryNav{
+  width:100%;
+}
+.info{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  height:5%;
+  padding-top:10px;
 }
 
+.welcomeImage{
+padding-top:0px;
+padding-bottom:10px;
+}
+
+.para{
+  height:150px;
+}
+
+.whoWeAreSection{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+  .welcomeImage > img {
+    height: 400px;
+    width: 600px;;
+    // margin-left: 183px;
+}
+}
+
+
   @media screen and (max-width:565px) {
+    body{
+      padding:10px;
+    }
+    .banner{
+      background-image: none;
+      width: 100%;
+      height: 800px;
+      background-color: #4e4e4e;
+      margin-top: 10px;
+      background-size: cover;
+      background-blend-mode: multiply;
+    }
+  
+    .mainHeading{
+        font-size: 10px;
+        color: white;
+        text-align: center;
+    }
+  
+    .banner p{
+      text-align: center;
+      font-size: 28px;
+    }
+    .banner p {
+      color: white;
+      width: 400px;
+      height: none;
+      line-height: none;
+      text-align: none;
+      position: none;
+      top: none;
+      left: none;
+      font-size: none;
+      transform: translate(-50%, 50%);
+      padding: -53px;
+      padding-left: none;
+      margin-left: -225px;
+      line-height: none;
+      text-align: none;
+      margin-top: -80px;
+   }
+   
+   .banner h1 {
+    color: white;
+    width: 192px;
+    height: none;
+    line-height: none;
+    text-align: none;
+    position: none;
+    top: -176px;
+    left: none;
+    font-size: 28px;
+    transform: translate(-50%, 50%);
+    padding: -53px;
+    padding-left: none;
+    margin-left: -255px;
+    line-height: none;
+    text-align: none;
+   
+   }
+   
+   .codingButton{
+    font-size: 1.125em;
+    padding: 0.625em 1.000em;
+    background-color: #e38f84;
+    border: 0.5px solid #ffffff;
+    z-index: 10;
+    color: white;
+    margin-top: 350px;
+   }
+   .mainButtons{
+    grid-template-rows: none;
+    width: none;
+    display: block;
+    margin: 185px 0px;
+    margin-right:20px;
+  }
     .team_grid{
       display:grid;
       grid-template-columns: 1fr;
@@ -213,6 +366,36 @@
     }
     .navbar{
       height:300px;
+    }
+    .icons{
+      display:grid;
+      grid-template-columns:1fr;
+      grid-template-rows: auto auto auto auto;
+      height:1200px;
+      margin-left:10px;
+      width:100%;
+      padding-left:265px;
+    }
+
+    .portfolio p{
+      padding-right:0;
+      width:100%;
+      text-align: center;
+    }
+    .portfolio{
+      padding-right:0;
+      padding-left:0;
+      margin-left:20px;
+      align-items:center;
+      padding-top:0;
+    }
+    //////////////////////////////////////////////////////////
+    .secondaryNav{
+      width:100%;
+    }
+
+    .info{
+      padding:0;
     }
   }
 
