@@ -269,8 +269,8 @@ padding-bottom:10px;
       padding:10px;
     }
     .banner{
-      background-image: none;
-      width: 100%;
+      background-image: url(../images/Code4CT-homepage.jpg);
+      width: 180%;
       height: 800px;
       background-color: #4e4e4e;
       margin-top: 10px;
@@ -301,7 +301,7 @@ padding-bottom:10px;
       transform: translate(-50%, 50%);
       padding: -53px;
       padding-left: none;
-      margin-left: -225px;
+      margin-left: -259px;
       line-height: none;
       text-align: none;
       margin-top: -80px;
@@ -320,7 +320,7 @@ padding-bottom:10px;
     transform: translate(-50%, 50%);
     padding: -53px;
     padding-left: none;
-    margin-left: -255px;
+    margin-left: -283px;
     line-height: none;
     text-align: none;
    
@@ -339,9 +339,27 @@ padding-bottom:10px;
     grid-template-rows: none;
     width: none;
     display: block;
-    margin: 185px 0px;
+    margin: 185px -56px;
     margin-right:20px;
   }
+ .para{
+   height:400px;
+ }
+    .para h1{
+      font-size: 26px;
+    }
+
+    .para p{
+      font-size: 24px;
+    }
+
+    .about > div {
+      justify-content: center;
+      align-items: center;
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+    }
     .team_grid{
       display:grid;
       grid-template-columns: 1fr;
@@ -417,6 +435,15 @@ padding-bottom:10px;
 
     .subscribe table{
       margin:0;
+    }
+    ////////////////////////////////////////
+    .contactSection{
+      display:grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      padding:0;
+      margin-left:10px;
+      height:450px;
     }
   }
 

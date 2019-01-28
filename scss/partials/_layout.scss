@@ -419,26 +419,27 @@ color:$text-color;
     height: 422px;
 }
 
-.pagination {
+.portfolioButtons {
     display: inline-block;
     padding:15px;
     text-align:center;
-    margin-left:43%;
+    margin-left:45%;
   }
   
-  .pagination a {
+  .gridImageButton{
     color: black;
     padding: 8px 16px;
     text-decoration: none;
     border:1px solid ;
     border-color:$container-color;
   }
-  
-  .pagination a.active {
-    background-color:$main-color;
-    color: white;
-  }
-  
-  .pagination a:hover:not(.active) {
-    background-color: #ddd;
+
+
+
+    #secondPortfolioGrid{
+        display:none;
+    }
+
+    #thirdPortfolioGrid{
+        display:none;
     }
