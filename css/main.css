@@ -299,6 +299,15 @@ ul li {
 .footerColumn1 i {
   margin-right: 0.625em; }
 
+.e-mail a:hover {
+  color: #e38f84; }
+
+.aboutUs a {
+  color: #666666; }
+
+.aboutUs a:hover {
+  color: #e38f84; }
+
 .subHeading {
   margin-left: 12px; }
 

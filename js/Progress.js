@@ -2,7 +2,7 @@
 
 (function() {
 
-    var Progress = function( element ) {
+    var progress = function( element ) {
 
         this.context = element.getContext( "2d" );
         this.refElement = element.parentNode;
